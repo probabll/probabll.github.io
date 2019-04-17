@@ -45,8 +45,8 @@ plugins:
 #
 
 author:
-    name: "Probabll"
-    bio: "Probabilistic Language Learning Group"
+    bio: "Probabilistic Language <br/> Learning Group"
+    avatar: "/assets/images/probabll.png"
     links:
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
