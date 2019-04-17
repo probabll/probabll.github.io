@@ -18,5 +18,5 @@ Master of Logic at UvA
 
 Bachelor in Artificial Intelligence at UvA
 
-* Natural language models and interfaces
+* [Natural language models and interfaces](https://cl-illc.github.io/nlmi/)
 
