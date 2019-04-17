@@ -1,0 +1,87 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2018
+  title: "A Stochastic Decoder for Neural Machine Translation"
+  authors: "Philip Schulz, Wilker Aziz and Trevor Cohn"
+  doc-url: //aclweb.org/anthology/P18-1115
+  arxiv: //arxiv.org/abs/1805.10844
+  appendix: //anthology.aclweb.org/attachments/P/P18/P18-1115.Notes.pdf
+  code: //github.com/philschulz/stochastic-decoder 
+  slides:
+  booktitle: "Proceedings of ACL"
+  bibtex: https://aclweb.org/anthology/P18-1115.bib
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2018
+  title: "Deep Generative Model for Joint Alignment and Word Representation"
+  authors: "Miguel Rios, Wilker Aziz, Khalil Sima'an"
+  doc-url: //aclweb.org/anthology/N18-1092 
+  arxiv: //arxiv.org/abs/1802.05883
+  code: //github.com/uva-slpl/embedalign
+  slides: /slides/embedalign-naacl18.pdf
+  booktitle: "Proceedings of NAACL-HLT"
+  bibtex: https://aclweb.org/anthology/N18-1092.bib
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2018
+  title: "Modeling Latent Sentence Structure in Neural Machine Translation"
+  authors: "Joost Bastings, Wilker Aziz, Ivan Titov, Khalil Sima'an"
+  doc-url: //arxiv.org/pdf/1901.06436.pdf
+  arxiv: //arxiv.org/abs/1901.06436
+  booktitle: "Extended abstract at ACL's NMT workshop"
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2017
+  title: "Graph Convolutional Encoders for Syntax-aware Neural Machine Translation"
+  authors: "Joost Bastings, Ivan Titov, Wilker Aziz, Diego Marcheggiani, Khalil Sima'an"
+  doc-url: https://www.aclweb.org/anthology/D17-1209 
+  arxiv: https://arxiv.org/pdf/1704.04675.pdf 
+  slides: /slides/emnlp2017.pdf
+  booktitle: "Proceedings of EMNLP"
+  bibtex: https://www.aclweb.org/anthology/D17-1209.bib
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2016
+  title: "Fast Collocation-Based Bayesian HMM Word Alignment"
+  authors: "Philip Schulz and Wilker Aziz"
+  booktitle: Proceedings of COLING
+  doc-url: https://aclweb.org/anthology/C16-1296
+  booktitle-url: http://coling2016.anlp.jp
+  code: https://github.com/philschulz/Aligner 
+  bibtex: https://aclweb.org/anthology/C16-1296.bib
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2016
+  title: "Examining the Relationship between Preordering and Word Order Freedom in Machine Translation"
+  authors: "Joachim Daiber, Miloš Stanojević, Wilker Aziz and Khalil Sima'an"
+  booktitle: "Proceedings of WMT"
+  doc-url: http://www.aclweb.org/anthology/W16-2213 
+  booktitle-url: http://www.statmt.org/wmt16/
+  bibtex: http://www.aclweb.org/anthology/W16-2213.bib
+  slides: /slides/wmt2016.pdf
+  code: https://github.com/wilkeraziz/mosesdecoder/tree/RELEASE-3.0
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2016
+  title: "Word alignment without NULL words"
+  authors: "Philip Schulz, Wilker Aziz and Khalil Sima'an"
+  booktitle: Proceedings of ACL
+  doc-url: http://www.aclweb.org/anthology/P16-2028 
+  bibtex: http://www.aclweb.org/anthology/P16-2028.bib
+  booktitle-url: http://acl2016.org
+  code: https://github.com/philschulz/Aligner 
+  poster: /poster/acl2016.pdf
