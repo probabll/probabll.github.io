@@ -42,3 +42,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+
+author:
+    name: "Probabll"
+    bio: "Probabilistic Language Learning Group"
+    links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/probabll"
