@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Papers"
     url: /papers/
+  - title: "VI Tutorial"
+    url: /vitutorial/
   - title: "Teaching"
     url: /teaching/
   - title: "People"
