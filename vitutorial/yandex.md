@@ -4,7 +4,7 @@ title: VI Tutorial at Yandex NLP Week
 ---
 
 
-This is an extended edition I am presenting at [Yandex NLP Week in Moscow](https://academy.yandex.ru/events/data_analysis/NLP_week/).
+This is an extended version of our ACL 2018 tutorial presented at [Yandex NLP Week in Moscow](https://academy.yandex.ru/events/data_analysis/NLP_week/).
 
 
 # Schedule
@@ -101,4 +101,4 @@ Non-exhaustive list (let me know if you would like me to add a paper to this lis
 * Vision and language: [Pu et al (2016)](http://papers.nips.cc/paper/6528-variational-autoencoder-for-deep-learning-of-images-labels-and-captions.pdf), [Wang et al (2017)](http://papers.nips.cc/paper/7158-diverse-and-accurate-image-description-using-a-variational-auto-encoder-with-an-additive-gaussian-encoding-space.pdf), [Calixto et al (2018)](https://arxiv.org/pdf/1811.00357.pdf)
 * Dialogue modelling: [Wen et al (2017)](http://proceedings.mlr.press/v70/wen17a/wen17a.pdf), [Serban et al (2016)](https://arxiv.org/pdf/1605.06069.pdf)
 * Speech modelling: [Fraccaro et al (2016)](https://arxiv.org/pdf/1605.07571.pdf)
-* Language modelling: [Bowman et al (2016)](https://aclweb.org/anthology/K16-1002), [Goyal et al (2017)](https://papers.nips.cc/paper/7248-z-forcing-training-stochastic-recurrent-networks.pdf), [Xu and Durret (2018)](https://aclweb.org/anthology/D18-1480), [Ziegler and Rush (2019)](https://arxiv.org/pdf/1901.10548.pdf)
+* Language modelling: [Bowman et al (2016)](https://aclweb.org/anthology/K16-1002), [Goyal et al (2017)](https://papers.nips.cc/paper/7248-z-forcing-training-stochastic-recurrent-networks.pdf), [Xu and Durret (2018)](https://aclweb.org/anthology/D18-1480), [Ziegler and Rush (2019)](https://arxiv.org/pdf/1901.10548.pdf), [Pelsmaeker and Aziz (2019)](https://arxiv.org/pdf/1904.08194.pdf)
