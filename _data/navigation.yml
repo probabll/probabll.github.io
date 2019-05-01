@@ -4,7 +4,7 @@ main:
   - title: "Papers"
     url: /papers/
   - title: "VI Tutorial"
-    url: /vitutorial/
+    url: https://vitutorial.github.io
   - title: "Teaching"
     url: /teaching/
   - title: "People"
