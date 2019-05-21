@@ -10,37 +10,45 @@
   code: https://github.com/tom-pelsmaeker/deep-generative-lm
 -
   layout: paper
-  paper-type: pre-print
+  paper-type: inproceedings
   selected: y
   year: 2019
   title: "Block Neural Autoregressive Flow"
   authors: "Nicola De Cao, Wilker Aziz and Ivan Titov"
   doc-url: https://arxiv.org/pdf/1904.04676.pdf
   arxiv: https://arxiv.org/abs/1904.04676
-  booktitle: "Under review"
+  booktitle: "UAI"
   code: https://github.com/nicola-decao/BNAF
 -
   layout: paper
-  paper-type: pre-print
+  paper-type: inproceedings
   selected: y
   year: 2019
-  img: entitygcn
+  title: "Interpretable Neural Predictions with Differentiable Binary Variables"
+  authors: "Joost Bastings, Wilker Aziz and Ivan Titov"
+  doc-url: //arxiv.org/pdf/1905.08160.pdf
+  arxiv: //arxiv.org/abs/1905.08160
+  booktitle: "ACL"  
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2019
+  title: "Latent Variable Model for Multi-modal Translation"
+  authors: "Iacer Calixto, Miguel Rios and Wilker Aziz"
+  doc-url: //arxiv.org/pdf/1811.00357.pdf
+  arxiv: //arxiv.org/abs/1811.00357
+  booktitle: "ACL"
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2019
   title: "Question Answering by Reasoning Across Documents with Graph Convolutional Networks"
   authors: "Nicola De Cao, Wilker Aziz and Ivan Titov"
   doc-url: //arxiv.org/pdf/1808.09920.pdf
   arxiv: //arxiv.org/abs/1808.09920
-  booktitle: "To appear in NAACL"
-  slides:
--
-  layout: paper
-  paper-type: pre-print
-  selected: y
-  year: 2018
-  title: "Latent Visual Clues for Neural Machine Translation"
-  authors: "Iacer Calixto, Miguel Rios and Wilker Aziz"
-  doc-url: //arxiv.org/pdf/1811.00357.pdf
-  arxiv: //arxiv.org/abs/1811.00357
-  booktitle: "arXiv:1811.0035"
+  booktitle: "NAACL"
 -
   layout: paper
   paper-type: pre-print
