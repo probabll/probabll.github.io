@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Papers"
     url: /papers/
+  - title: "Code"
+    url: /code/
   - title: "VI Tutorial"
     url: https://vitutorial.github.io
   - title: "Teaching"
