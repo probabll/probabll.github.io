@@ -17,7 +17,7 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
     * Interpretable predictions with NNs at ACL19
     * Multimodal machine translation at ACL19
     * Auto-encoding machine translation at RepL4NLP19 
-    * Normalising flows as UAI19
+    * Normalising flows at UAI19
     * Question answering at NAACL19
 * `August 2019` [VI tutorial](https://vitutorial.github.io) at the [DTU-DIKU 2019 Summer School](http://summer-school-gan.compute.dtu.dk)
 * `May 2019` [VI tutorial](https://vitutorial.github.io) is visiting [Andre Martins's group](https://andre-martins.github.io) and [IST](https://tecnico.ulisboa.pt)!
