@@ -9,7 +9,10 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 # News
 
-* **Code** check out our [sparse distributions](https://github.com/probabll/sparse-distributions) for pytorch
+* **Code** 
+    * [auto-encoding variational neural machine translation](https://github.com/Roxot/AEVNMT.pt)
+    * [interpretable predictions](https://github.com/bastings/interpretable_predictions)
+    * [sparse distributions](https://github.com/probabll/sparse-distributions) for pytorch
 * New [papers in 2019](/papers)
     * Interpretable predictions with NNs at ACL19
     * Multimodal machine translation at ACL19

@@ -78,9 +78,13 @@
     {% endif %}
 
     {% if include.paper.data %}
-    <a href="{{ include.paper.data }}" class="label label-info">data</a>
+    <a href="{{ include.paper.data }}" class="label label-info">[data]</a>
     {% endif %}
 
+    {% if include.paper.demo %}
+    <a href="{{ include.paper.demo }}" class="label label-info">[demo]</a>
+    {% endif %}
+    
     <br/>
     <br/>
 
