@@ -3,5 +3,6 @@
     <!-- citation -->
     <a href="{{ include.person.url }}">{{ include.person.name }}</a><br/>
     {% if include.person.role %}{{ include.person.role }}{% endif %}
+    {% if include.person.home %} visiting from {{ include.person.home }}{% endif %}
   </p>
 </div>
