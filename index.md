@@ -9,6 +9,8 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 # News
 
+* We are **hiring** a [research assistant/associate](https://www.uva.nl/en/content/vacancies/2019/10/19-681-postdoctoral-researcher-in-neural-machine-translation.html?z).
+
 * **Code** 
     * [auto-encoding variational neural machine translation](https://github.com/Roxot/AEVNMT.pt)
     * [interpretable predictions](https://github.com/bastings/interpretable_predictions)
