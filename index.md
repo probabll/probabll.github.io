@@ -9,12 +9,13 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 # News
 
-* We are **hiring** a [research assistant/associate](https://www.uva.nl/en/content/vacancies/2019/10/19-681-postdoctoral-researcher-in-neural-machine-translation.html?z).
 
 * **Code** 
     * [auto-encoding variational neural machine translation](https://github.com/Roxot/AEVNMT.pt)
     * [interpretable predictions](https://github.com/bastings/interpretable_predictions)
     * [sparse distributions](https://github.com/probabll/sparse-distributions) for pytorch
+    * [pytorch distributions](https://github.com/probabll/dists.pt) for pytorch
+    * [DGM components](https://github.com/probabll/dgm.pt) for pytorch
 * New [papers in 2019](/papers)
     * Interpretable predictions with NNs at ACL19
     * Multimodal machine translation at ACL19
