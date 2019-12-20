@@ -10,20 +10,11 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 # News
 
 
+* 2020
+    * Latent morphology NMT accepted at ICRL20!
+    * VI tutorial is going to Alicante
 * **Code** 
     * [auto-encoding variational neural machine translation](https://github.com/Roxot/AEVNMT.pt)
     * [interpretable predictions](https://github.com/bastings/interpretable_predictions)
-    * [sparse distributions](https://github.com/probabll/sparse-distributions) for pytorch
-    * [pytorch distributions](https://github.com/probabll/dists.pt) for pytorch
+    * [extensions to pytorch distributions](https://github.com/probabll/dists.pt) for pytorch
     * [DGM components](https://github.com/probabll/dgm.pt) for pytorch
-* New [papers in 2019](/papers)
-    * Interpretable predictions with NNs at ACL19
-    * Multimodal machine translation at ACL19
-    * Auto-encoding machine translation at RepL4NLP19 
-    * Normalising flows at UAI19
-    * Question answering at NAACL19
-* `August 2019` [VI tutorial](https://vitutorial.github.io) at the [DTU-DIKU 2019 Summer School](http://summer-school-gan.compute.dtu.dk)
-* `May 2019` [VI tutorial](https://vitutorial.github.io) is visiting [Andre Martins's group](https://andre-martins.github.io) and [IST](https://tecnico.ulisboa.pt)!
-* `March 2019` [VI tutorial](https://vitutorial.github.io) is visiting Yandex!
-* `February 2019` [Gourmet](https://gourmet-project.eu) is now live!
-* `January 2019` We are born!
