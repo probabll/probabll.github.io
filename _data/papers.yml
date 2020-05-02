@@ -1,4 +1,16 @@
 -
+
+  layout: paper
+  paper-type: inproceedings 
+  selected: y
+  year: 2020
+  title: Effective Estimation of Deep Generative Language Models
+  authors: Tom Pelsmaeker and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/1904.08194.pdf
+  arxiv: https://arxiv.org/abs/1904.08194
+  code: https://github.com/tom-pelsmaeker/deep-generative-lm
+  booktitle: "ACL"
+-
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -9,16 +21,6 @@
   arxiv: https://arxiv.org/abs/1910.13890 
   openreview: https://openreview.net/forum?id=BJxSI1SKDH
   booktitle: "ICLR"
--
-  layout: paper
-  paper-type: pre-print 
-  selected: y
-  year: 2019
-  title: Effective Estimation of Deep Generative Language Models
-  authors: Tom Pelsmaeker and Wilker Aziz
-  doc-url: https://arxiv.org/pdf/1904.08194.pdf
-  arxiv: https://arxiv.org/abs/1904.08194
-  code: https://github.com/tom-pelsmaeker/deep-generative-lm
 -
   layout: paper
   paper-type: inproceedings
