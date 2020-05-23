@@ -11,7 +11,9 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 * 2020
-    * Latent morphology NMT accepted at ICRL20!
+    * Check our pre-print on the [inadequacy of the mode in NMT](https://arxiv.org/pdf/2005.10283.pdf)
+    * [Effective Estimation of DGLMs](https://arxiv.org/pdf/1904.08194.pdf) accepted at ACL20!
+    * [Latent morphology NMT](https://arxiv.org/pdf/1910.13890.pdf) accepted at ICRL20!
     * VI tutorial is going to Alicante
 * **Code** 
     * [auto-encoding variational neural machine translation](https://github.com/Roxot/AEVNMT.pt)
