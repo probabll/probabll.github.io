@@ -1,5 +1,4 @@
 -
-
   layout: paper
   paper-type: pre-print
   selected: y
@@ -8,6 +7,15 @@
   authors: Bryan Eikema and Wilker Aziz
   doc-url: https://arxiv.org/pdf/2005.10283.pdf
   arxiv: https://arxiv.org/abs/2005.10283
+-
+  layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2020
+  title: How do Decisions Emerge across Layers in Neural Models? Interpretation with Differentiable Masking
+  authors: Nicola De Cao, Michael Schlichtkrull, Wilker Aziz, and Ivan Titov
+  doc-url: https://arxiv.org/pdf/2004.14992.pdf
+  arxiv: https://arxiv.org/abs/2004.14992
 -
   layout: paper
   paper-type: inproceedings 
@@ -25,7 +33,7 @@
   selected: y
   year: 2020
   title: A Latent Morphology Model for Open-Vocabulary Neural Machine Translation  
-  authors: Duygu Ataman and Wilker Aziz and Alexandra Birch
+  authors: Duygu Ataman, Wilker Aziz, and Alexandra Birch
   doc-url: https://arxiv.org/pdf/1910.13890.pdf
   arxiv: https://arxiv.org/abs/1910.13890 
   openreview: https://openreview.net/forum?id=BJxSI1SKDH
