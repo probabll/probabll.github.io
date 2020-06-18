@@ -16,14 +16,11 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
     * [sparse distributions](https://github.com/probabll/sparse-distributions) for pytorch
     * [pytorch distributions](https://github.com/probabll/dists.pt) for pytorch
     * [DGM components](https://github.com/probabll/dgm.pt) for pytorch
-* New [papers in 2019](/papers)
-    * Interpretable predictions with NNs at ACL19
-    * Multimodal machine translation at ACL19
-    * Auto-encoding machine translation at RepL4NLP19 
-    * Normalising flows at UAI19
-    * Question answering at NAACL19
-* `August 2019` [VI tutorial](https://vitutorial.github.io) at the [DTU-DIKU 2019 Summer School](http://summer-school-gan.compute.dtu.dk)
-* `May 2019` [VI tutorial](https://vitutorial.github.io) is visiting [Andre Martins's group](https://andre-martins.github.io) and [IST](https://tecnico.ulisboa.pt)!
-* `March 2019` [VI tutorial](https://vitutorial.github.io) is visiting Yandex!
-* `February 2019` [Gourmet](https://gourmet-project.eu) is now live!
+* New [papers in 2020](/papers)
+    * [Is MAP Decoding All You Need?](https://arxiv.org/pdf/2005.10283.pdf)
+    * [How do Decisions Emerge in Neural Models?](https://arxiv.org/pdf/2004.14992.pdf)
+    * [The Power Spherical Distribution](https://arxiv.org/pdf/2006.04437.pdf)
+    * [Normalising Flows for Discrete Variables](https://arxiv.org/pdf/2006.06346.pdf)
+    * [Effective Estimation of Deep Generative LMs](https://arxiv.org/pdf/1904.08194.pdf)
+    * [Latent Morphology in NMT](https://arxiv.org/pdf/1910.13890.pdf)
 * `January 2019` We are born!
