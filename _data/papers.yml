@@ -1,23 +1,62 @@
 -
   layout: paper
-  paper-type: pre-print 
+  paper-type: pre-print
   selected: y
-  year: 2019
-  title: A Latent Morphology Model for Open-Vocabulary Neural Machine Translation
-  authors: Duygu Ataman and Wilker Aziz and Alexandra Birch
-  doc-url: https://arxiv.org/pdf/1910.13890.pdf
-  arxiv: https://arxiv.org/abs/1910.13890 
+  year: 2020
+  title: Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation
+  authors: Bryan Eikema and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2005.10283.pdf
+  arxiv: https://arxiv.org/abs/2005.10283
 -
   layout: paper
-  paper-type: pre-print 
+  paper-type: pre-print
   selected: y
-  year: 2019
+  year: 2020
+  title: How do Decisions Emerge across Layers in Neural Models? Interpretation with Differentiable Masking
+  authors: Nicola De Cao, Michael Schlichtkrull, Wilker Aziz, and Ivan Titov
+  doc-url: https://arxiv.org/pdf/2004.14992.pdf
+  arxiv: https://arxiv.org/abs/2004.14992
+-
+  layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2020
+  title: The Power Spherical Distribution 
+  authors: Nicola De Cao and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2006.04437.pdf
+  arxiv: https://arxiv.org/abs/2006.04437
+-
+  layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2020
+  title: Latent Transformations for Discrete-Data Normalising Flows 
+  authors: Rob Hesselink and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2006.06346.pdf
+  arxiv: https://arxiv.org/abs/2006.06346
+-
+  layout: paper
+  paper-type: inproceedings 
+  selected: y
+  year: 2020
   title: Effective Estimation of Deep Generative Language Models
   authors: Tom Pelsmaeker and Wilker Aziz
   doc-url: https://arxiv.org/pdf/1904.08194.pdf
   arxiv: https://arxiv.org/abs/1904.08194
   code: https://github.com/tom-pelsmaeker/deep-generative-lm
   slides: https://probabll.github.io/slides/acl2020.pdf
+  booktitle: "ACL"
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  title: A Latent Morphology Model for Open-Vocabulary Neural Machine Translation  
+  authors: Duygu Ataman, Wilker Aziz, and Alexandra Birch
+  doc-url: https://arxiv.org/pdf/1910.13890.pdf
+  arxiv: https://arxiv.org/abs/1910.13890 
+  openreview: https://openreview.net/forum?id=BJxSI1SKDH
+  booktitle: "ICLR"
 -
   layout: paper
   paper-type: inproceedings

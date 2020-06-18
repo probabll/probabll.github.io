@@ -31,7 +31,7 @@
       {% when "thesis" %}
         PhD thesis, {{ include.paper.institution }}.
       {% when "pre-print" %}
-        Pre-print: {{ include.paper.booktitle }}.
+        Pre-print.
     {% endcase %}
     {{ include.paper.year }}.
     {% if include.paper.note %}<i>{{ include.paper.note }}</i>{% endif %}
@@ -50,6 +50,10 @@
     
     {% if include.paper.appendix %}
     <a href="{{ include.paper.appendix }}" class="label label-info">[appendix]</a>
+    {% endif %}
+    
+    {% if include.paper.openreview %}
+    <a href="{{ include.paper.openreview }}" class="label label-info">[OpenReview]</a>
     {% endif %}
     
     {% if include.paper.data %}
