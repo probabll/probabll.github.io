@@ -27,6 +27,15 @@
   arxiv: https://arxiv.org/abs/2004.14992
 -
   layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2020
+  title: Latent Transformations for Discrete-Data Normalising Flows 
+  authors: Rob Hesselink and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2006.06346.pdf
+  arxiv: https://arxiv.org/abs/2006.06346
+-
+  layout: paper
   paper-type: inproceedings
   selected: y
   year: 2020
@@ -35,15 +44,7 @@
   doc-url: https://arxiv.org/pdf/2006.04437.pdf
   arxiv: https://arxiv.org/abs/2006.04437
   booktitle: "ICML Workshop on Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models"
--
-  layout: paper
-  paper-type: pre-print
-  selected: y
-  year: 2020
-  title: Latent Transformations for Discrete-Data Normalising Flows 
-  authors: Rob Hesselink and Wilker Aziz
-  doc-url: https://arxiv.org/pdf/2006.06346.pdf
-  arxiv: https://arxiv.org/abs/2006.06346
+  slides: https://probabll.github.io/slides/innf2020.pdf
 -
   layout: paper
   paper-type: inproceedings 
