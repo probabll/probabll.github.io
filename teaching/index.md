@@ -9,7 +9,7 @@ International audiences
 
 Master in Artificial Intelligence at UvA
 
-* Deep learning for natural language processing
+* [Deep learning for natural language processing](/teaching/dl4nlp)
 
 Master of Logic at UvA
 

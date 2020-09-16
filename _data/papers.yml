@@ -18,10 +18,11 @@
   arxiv: https://arxiv.org/abs/2005.10283
 -
   layout: paper
-  paper-type: pre-print
+  paper-type: inproceedings
   selected: y
   year: 2020
   title: How do Decisions Emerge across Layers in Neural Models? Interpretation with Differentiable Masking
+  booktitle: "EMNLP (to appear)"
   authors: Nicola De Cao, Michael Schlichtkrull, Wilker Aziz, and Ivan Titov
   doc-url: https://arxiv.org/pdf/2004.14992.pdf
   arxiv: https://arxiv.org/abs/2004.14992
