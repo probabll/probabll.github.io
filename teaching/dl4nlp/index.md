@@ -3,6 +3,8 @@ layout: single
 title: DL4NLP
 ---
 
+I offer these classes as part of the course Deep Learning for Natural Language Processing at the UvA.
+
 * Week 2b - Deep probabilistic models: 
     * [class](/slides/dl4nlp1-class.pdf)
     * [exercises](/slides/dl4nlp1-exercises.pdf)
