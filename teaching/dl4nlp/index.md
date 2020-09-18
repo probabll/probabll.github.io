@@ -13,6 +13,12 @@ I offer these classes as part of the course Deep Learning for Natural Language P
     * [appendix](/slides/dl4nlp2-appendix.pdf)
     * [exercises](/slides/dl4nlp2-exercises.pdf)
 * Week 4b - Deep continuous latent variable models:
+    * [class](/slides/dl4nlp3-class.pdf)
+    * appendix
+    * exercises
 * Week 5b - Bayesian neural networks:
+    * [class](/slides/dl4nlp4-class.pdf)
+    * appendix
+    * exercises
 
 
