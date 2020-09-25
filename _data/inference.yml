@@ -18,3 +18,87 @@
   when: January 29th 2020 
   arxiv: https://arxiv.org/abs/1801.03558
 
+-
+  selected: y
+  when: November 13th 2019
+  title: Compound Probabilistic Context-Free Grammars for Grammar Induction
+  doc-url: https://arxiv.org/abs/1906.10225
+-
+  selected: y
+  when: October 30th 2019
+  title: Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference using a Delta Posterior
+  doc-url: https://arxiv.org/abs/1908.07181
+-
+  selected: y
+  when: October 16th 2019 
+  title: Discrete Flows: Invertible Generative Models of Discrete Data
+  doc-url: https://arxiv.org/abs/1905.10347
+  remark: You may want to check a related paper: Discrete Flows and Lossless Compression
+  related: https://arxiv.org/abs/1905.07376
+-
+  selected: y
+  when: October 3th 2019
+  title: A Surprisingly Effective Fix for Deep Latent Variable Modeling of Text
+  doc-url: https://arxiv.org/abs/1909.00868
+  remark: You may want to check a related paper: Implicit Deep Latent Variable Models for Text Generation
+  related: https://arxiv.org/abs/1908.11527
+-
+  selected: y
+  when: June 20th 2019
+  title: SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver
+  doc-url: https://arxiv.org/abs/1905.12149
+-
+  selected: y
+  when: June 13th 2019
+  title: Cooperative Learning of Disjoint Syntax and Semantics
+  doc-url: https://serhii-havrylov.github.io/res/naacl.pdf
+-
+  selected: y
+  when: June 6th 2019
+  title: Proximal Policy Optimization Algorithms
+  doc-url: https://arxiv.org/abs/1707.06347
+-
+  selected: y
+  when: May 9th 2019
+  title: Block Neural Autoregressive Flow
+  doc-url: https://arxiv.org/abs/1904.04676
+-
+  selected: y
+  when: May 2nd 2019
+  title: Riemannian Normalizing Flow on Variational Wasserstein Autoencoder for Text Modeling
+  doc-url: https://arxiv.org/pdf/1904.02399.pdf
+-
+  selected: y
+  when: April 11th 2019
+  title: "Augment and Reduce: Stochastic Inference for Large Categorical Distributions"
+  doc-url: https://arxiv.org/abs/1802.04220
+-
+  selected: y
+  when: April 4th 2019
+  title: Cyclical Annealing Schedule: A Simple Approach to Mitigating KL Vanishing
+  doc-url: https://arxiv.org/abs/1903.10145
+-
+  selected: y
+  when: March 28th 2019
+  title: Latent Normalizing Flows for Discrete Sequences
+  doc-url: https://arxiv.org/abs/1901.10548
+-
+  selected: y
+  when: March 21st 2019
+  title: Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement
+  doc-url: https://arxiv.org/abs/1903.06059
+-
+  selected: y
+  when: March 14th 2019
+  title: Variational Measure Preserving Flows
+  doc-url: https://arxiv.org/pdf/1805.10377v1.pdf
+-
+  selected: y
+  when: February 14th 2019
+  title: Neural Autoregressive Flows
+  doc-url: https://arxiv.org/abs/1804.00779
+-
+  selected: y
+  when: February 1st 2019
+  title: Neural Ordinary Differential Equations
+  doc-url: https://papers.nips.cc/paper/7892-neural-ordinary-differential-equations.pdf
