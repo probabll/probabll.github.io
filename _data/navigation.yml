@@ -1,6 +1,6 @@
 main:
-  - title: "About"
-    url: /
+  - title: "Events"
+    url: /events/
   - title: "Papers"
     url: /papers/
   - title: "Code"
