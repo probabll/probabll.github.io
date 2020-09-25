@@ -6,14 +6,15 @@
     {% else %}
         <font color="darkgray">{{ include.paper.title }}</font><br/>
     {% endif %}
-    {% if include.paper.authors %}{{ include.paper.authors }}.{% endif %}
-    {{ include.paper.year }}.
-    {% if include.paper.note %}<i>{{ include.paper.note }}</i>{% endif %}
-    <br/>
+    {% if include.paper.remark %}
+        <i>{{ include.paper.remark }}</i><br/>
+    {% endif %}
 
     {% if include.paper.when %}
-    <i>{{ include.paper.when }}</i> 
+    <i>{{ include.paper.when }}.</i> 
     {% endif %}
+
+
 
     {% if include.paper.minutes %}
     <a href="{{ include.paper.minutes }}" class="label label-info">[minutes]</a>
