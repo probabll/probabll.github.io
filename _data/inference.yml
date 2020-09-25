@@ -31,21 +31,21 @@
 -
   selected: y
   when: October 16th 2019 
-  title: Discrete Flows: Invertible Generative Models of Discrete Data
+  title: "Discrete Flows: Invertible Generative Models of Discrete Data"
   doc-url: https://arxiv.org/abs/1905.10347
-  remark: You may want to check a related paper: Discrete Flows and Lossless Compression
+  remark: "You may want to check a related paper: Discrete Flows and Lossless Compression"
   related: https://arxiv.org/abs/1905.07376
 -
   selected: y
   when: October 3th 2019
   title: A Surprisingly Effective Fix for Deep Latent Variable Modeling of Text
   doc-url: https://arxiv.org/abs/1909.00868
-  remark: You may want to check a related paper: Implicit Deep Latent Variable Models for Text Generation
+  remark: "You may want to check a related paper: Implicit Deep Latent Variable Models for Text Generation"
   related: https://arxiv.org/abs/1908.11527
 -
   selected: y
   when: June 20th 2019
-  title: SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver
+  title: "SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver"
   doc-url: https://arxiv.org/abs/1905.12149
 -
   selected: y
@@ -75,7 +75,7 @@
 -
   selected: y
   when: April 4th 2019
-  title: Cyclical Annealing Schedule: A Simple Approach to Mitigating KL Vanishing
+  title: "Cyclical Annealing Schedule: A Simple Approach to Mitigating KL Vanishing"
   doc-url: https://arxiv.org/abs/1903.10145
 -
   selected: y
@@ -85,7 +85,7 @@
 -
   selected: y
   when: March 21st 2019
-  title: Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement
+  title: "Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement"
   doc-url: https://arxiv.org/abs/1903.06059
 -
   selected: y
