@@ -6,6 +6,12 @@
     {% else %}
         <font color="darkgray">{{ include.paper.title }}</font><br/>
     {% endif %}
+   
+    {% if include.paper.remark %}
+        <div style="font-size: small; ">
+        {{ include.paper.remark }}<br/>
+        </div>
+    {% endif %}
 
     {% if include.paper.when %}
     <i>{{ include.paper.when }}.</i> 
@@ -57,11 +63,8 @@
     {% if include.paper.related %}
     <a href="{{ include.paper.related }}" class="label label-info">[related]</a>
     {% endif %}
-    
-    {% if include.paper.remark %}
-        {{ include.paper.remark | markdownify }}
-    {% endif %}
-    
+
+    <br/>
     <br/>
 
   </div>
