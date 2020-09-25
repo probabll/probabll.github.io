@@ -3,6 +3,12 @@ layout: single
 title: Approximate Inference Methods
 ---
 
+{% for paper in site.data.inference %}
+{% include reading.html paper=paper %}
+{% endfor %}
+
+
+# Old
 
 * February 12th 2020: [Don't Blame the ELBO! A Linear VAE Perspective on Posterior Collapse](https://papers.nips.cc/paper/9138-dont-blame-the-elbo-a-linear-vae-perspective-on-posterior-collapse)
 * January 29th 2020: [Inference Suboptimality in Variational Autoencoders](https://arxiv.org/abs/1801.03558)

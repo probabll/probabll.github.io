@@ -1,0 +1,21 @@
+-
+  selected: y
+  title: Don't Blame the ELBO! A Linear VAE Perspective on Posterior Collapse
+  authors:
+  year:
+  doc-url: https://papers.nips.cc/paper/9138-dont-blame-the-elbo-a-linear-vae-perspective-on-posterior-collapse 
+  when: February 12th 2020
+  minutes:
+  talk:
+  slides:
+  data:
+  code:
+  demo:
+  appendix:
+-
+  selected: y
+  title: Inference Suboptimality in Variational Autoencoders 
+  doc-url: http://proceedings.mlr.press/v80/cremer18a.html 
+  when: January 29th 2020 
+  arxiv: https://arxiv.org/abs/1801.03558
+
