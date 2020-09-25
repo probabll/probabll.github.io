@@ -10,5 +10,5 @@ Here you will find events such as reading groups and seminars we organise. You m
 
 ## Reading groups
 
-* Approximate inference meethods: [papers](/evens/inference), [mailing list](https://list.uva.nl/mailman/listinfo/imrg)
+* Approximate inference meethods: [papers](/events/inference), [mailing list](https://list.uva.nl/mailman/listinfo/imrg)
 * Deep learning: [mailing list](https://list.uva.nl/mailman/listinfo/dlm-illc)
