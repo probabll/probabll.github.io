@@ -7,7 +7,7 @@
         <font color="darkgray">{{ include.paper.title }}</font><br/>
     {% endif %}
     {% if include.paper.remark %}
-        <i>{{ include.paper.remark }}</i><br/>
+        {{ include.paper.remark | markdownify }}<br/>
     {% endif %}
 
     {% if include.paper.when %}
