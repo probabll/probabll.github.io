@@ -3,19 +3,20 @@
   paper-type: pre-print
   selected: y
   year: 2020
-  title: Efficient Marginalization of Discrete and Structured Latent Variables via Sparsity
-  authors: Gonçalo M. Correia, Vlad Niculae, Wilker Aziz, and André F. T. Martins
-  doc-url: https://arxiv.org/pdf/2007.01919.pdf
-  arxiv: https://arxiv.org/abs/2007.01919
--
-  layout: paper
-  paper-type: pre-print
-  selected: y
-  year: 2020
   title: Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation
   authors: Bryan Eikema and Wilker Aziz
   doc-url: https://arxiv.org/pdf/2005.10283.pdf
   arxiv: https://arxiv.org/abs/2005.10283
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  title: Efficient Marginalization of Discrete and Structured Latent Variables via Sparsity
+  authors: Gonçalo M. Correia, Vlad Niculae, Wilker Aziz, and André F. T. Martins
+  booktitle: "NeurIPS (to appear)"
+  doc-url: https://arxiv.org/pdf/2007.01919.pdf
+  arxiv: https://arxiv.org/abs/2007.01919
 -
   layout: paper
   paper-type: inproceedings
