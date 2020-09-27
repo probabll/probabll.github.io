@@ -1,15 +1,35 @@
 -
+  name: Gonçalo Correia
+  selected: y
+  url: https://goncalomcorreia.github.io
+-
+  name: Vlad Niculae
+  selected: y
+  url: http://vene.ro
+-
+  name: Víctor Sánchez Cartagena
+  selected: y
+  url: https://www.dlsi.ua.es/~vmsanchez/ 
+- 
+  name: Duygu Ataman 
+  selected: y 
+  url: https://www.cl.uzh.ch/de/people/team/compling/ataman.html
+-
   name: Tom Pelsmaeker
   selected: y
   url: https://tom-pelsmaeker.github.io
+-
+  name: Iacer Calixto
+  selected: y
+  url: https://iacercalixto.github.io
 -
   name: Miguel Rios
   selected: y
   url: https://mriosb08.github.io
 -
-  name: Iacer Calixto
+  name: André Martins
   selected: y
-  url: https://iacercalixto.github.io
+  url: https://andre-martins.github.io
 -
   name: Ivan Titov
   selected: y
