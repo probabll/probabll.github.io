@@ -7,6 +7,10 @@
   selected: y
   url: http://vene.ro
 -
+  name: André Martins
+  selected: y
+  url: https://andre-martins.github.io
+-
   name: Víctor Sánchez Cartagena
   selected: y
   url: https://www.dlsi.ua.es/~vmsanchez/ 
@@ -26,10 +30,14 @@
   name: Miguel Rios
   selected: y
   url: https://mriosb08.github.io
--
-  name: André Martins
+- 
+  name: Jasmijn Bastings
   selected: y
-  url: https://andre-martins.github.io
+  url: https://bastings.github.io
+-
+  name: Philip Schulz
+  selected: y
+  url: https://www.amazon.science/author/philip-schulz
 -
   name: Ivan Titov
   selected: y
