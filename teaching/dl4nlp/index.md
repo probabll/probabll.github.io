@@ -18,7 +18,7 @@ I offer these classes as part of the course Deep Learning for Natural Language P
     * exercises
 * Week 5b - Bayesian neural networks:
     * [class](/slides/dl4nlp4-class.pdf)
-    * appendix
+    * [notes on uncertainty](/slides/dl4nlp4-uncertainty.pdf)
     * exercises
 
 
