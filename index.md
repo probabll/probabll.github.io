@@ -12,9 +12,9 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 * 2020
+    * [Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation](https://arxiv.org/pdf/2005.10283.pdf) has been accepted at Coling2020!
     * [Efficient Marginalization of Discrete and Structured Latent Variables via Sparsity](https://arxiv.org/pdf/2007.01919.pdf) is a NeurIPS2020 spotlight!
     * [How do Decisions Emerge in Neural Models?](https://arxiv.org/pdf/2004.14992.pdf) has been accepted at EMNL2020!
-    * [Is MAP Decoding All You Need?](https://arxiv.org/pdf/2005.10283.pdf)
     * [The Power Spherical Distribution](https://arxiv.org/pdf/2006.04437.pdf) accepted at INNF+2020!
     * [Effective Estimation of DGLMs](https://www.aclweb.org/anthology/2020.acl-main.646.pdf) accepted at ACL2020!
     * [Latent morphology NMT](https://arxiv.org/pdf/1910.13890.pdf) accepted at ICRL2020!

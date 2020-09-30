@@ -5,6 +5,7 @@
   year: 2020
   title: Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation
   authors: Bryan Eikema and Wilker Aziz
+  booktitle: "Coling (to appear)"
   doc-url: https://arxiv.org/pdf/2005.10283.pdf
   arxiv: https://arxiv.org/abs/2005.10283
 -
