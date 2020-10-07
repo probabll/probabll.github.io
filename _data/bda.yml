@@ -4,3 +4,9 @@
   doc-url: https://jmlr.org/papers/volume18/16-305/16-305.pdf
   when: October 15, 3pm
   remark: Our goal is to discuss Sections 1 and 2 in detail, maybe start Section 3.
+-
+  selected: y
+  title: BDA3
+  doc-url: http://www.stat.columbia.edu/~gelman/book/BDA3.pdf
+  when: February-June 2020
+  remark: Part I of the book.
