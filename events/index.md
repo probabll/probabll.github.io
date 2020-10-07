@@ -12,10 +12,10 @@ Here you will find events such as reading groups and seminars we organise. You m
 
 ## Reading groups
 
+* [Bayesian data analysis](/events/bda) 
 * Approximate inference meethods: biweekly on Thursday (alternates with deep learning)
     * [papers](/events/inference)
     * [mailing list](https://list.uva.nl/mailman/listinfo/imrg)
 * Deep learning: biweekly on Thursday
     * [mailing list](https://list.uva.nl/mailman/listinfo/dlm-illc)
-* Bayesian data analysis: weekly on Friday
-    * [book](http://www.stat.columbia.edu/~gelman/book/)
+
