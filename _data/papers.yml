@@ -1,6 +1,6 @@
 -
   layout: paper
-  paper-type: pre-print
+  paper-type: inproceedings
   selected: y
   year: 2020
   title: Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation
