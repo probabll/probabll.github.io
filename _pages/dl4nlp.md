@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /teaching/dl4nlp/
 title: DL4NLP
 ---
 

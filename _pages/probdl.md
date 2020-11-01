@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /teaching/probdl/
 title: Probabilistic Deep Learning
 ---
 

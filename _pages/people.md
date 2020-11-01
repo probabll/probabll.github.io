@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /people/
 title: People
 ---
 
