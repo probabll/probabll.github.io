@@ -6,7 +6,7 @@ title: Teaching
 
 International audiences
 
-* [Variational inference and deep generative models for NLP](/vitutorial/)
+* [Variational inference and deep generative models for NLP](https://vitutorial.github.io)
 
 Master in Artificial Intelligence at UvA
 
