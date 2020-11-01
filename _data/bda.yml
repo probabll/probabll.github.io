@@ -2,6 +2,12 @@
   selected: y
   title: "Time for a Change: a Tutorial for Comparing Multiple Classifiers Through Bayesian Analysis"
   doc-url: https://jmlr.org/papers/volume18/16-305/16-305.pdf
+  when: October 29, 4pm
+  remark: Our goal is to finish Section 3 and maybe start Section 4.
+-
+  selected: y
+  title: "Time for a Change: a Tutorial for Comparing Multiple Classifiers Through Bayesian Analysis"
+  doc-url: https://jmlr.org/papers/volume18/16-305/16-305.pdf
   when: October 22, 4pm
   remark: Our goal is to finish Section 2 (last 3 pitfalls), cover Section 3, and maybe start Section 4.
 -
