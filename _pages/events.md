@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /events/
 title: Events
 ---
 
