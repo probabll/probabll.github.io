@@ -12,8 +12,7 @@ Here you will find events such as reading groups and seminars we organise. You m
 ## Reading groups
 
 * [Bayesian data analysis](/events/bda) 
-* [David MacKay's Short Course on Information Theory](http://www.inference.org.uk/itprnn/book.pdf): starting in November.
-* Approximate inference meethods: biweekly on Thursday (alternates with deep learning)
+* Approximate inference methods: biweekly on Thursday (alternates with deep learning)
     * [papers](/events/inference)
     * [mailing list](https://list.uva.nl/mailman/listinfo/imrg)
 * Deep learning: biweekly on Thursday

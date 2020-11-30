@@ -1,5 +1,11 @@
 -
   selected: y
+  title: "BDA3"
+  doc-url: http://www.stat.columbia.edu/~gelman/book/BDA3.pdf
+  when: December 2020 - Now
+  remark: Part II of the book.
+-
+  selected: y
   title: "Time for a Change: a Tutorial for Comparing Multiple Classifiers Through Bayesian Analysis"
   doc-url: https://jmlr.org/papers/volume18/16-305/16-305.pdf
   when: October 29, 4pm
