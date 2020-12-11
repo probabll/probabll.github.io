@@ -20,3 +20,7 @@ Bachelor in Artificial Intelligence at UvA
 
 * [Natural language models and interfaces](https://cl-illc.github.io/nlmi/)
 
+Guest lectures
+
+* NLP1: [Foundations of Bayesian NLP](slides/bayesnlp1.pdf)
+
