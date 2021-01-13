@@ -5,10 +5,10 @@
   year: 2020
   title: Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation
   authors: Bryan Eikema and Wilker Aziz
-  booktitle: "Coling (to appear)"
-  doc-url: https://arxiv.org/pdf/2005.10283.pdf
+  booktitle: Coling 
+  doc-url: https://www.aclweb.org/anthology/2020.coling-main.398/
   arxiv: https://arxiv.org/abs/2005.10283
-  note: Outstanding Paper.
+  note: Best Paper.
 -
   layout: paper
   paper-type: inproceedings
@@ -16,18 +16,19 @@
   year: 2020
   title: Efficient Marginalization of Discrete and Structured Latent Variables via Sparsity
   authors: Gonçalo M. Correia, Vlad Niculae, Wilker Aziz, and André F. T. Martins
-  booktitle: "NeurIPS (to appear)"
-  doc-url: https://arxiv.org/pdf/2007.01919.pdf
+  booktitle: NeurIPS
+  doc-url: https://papers.nips.cc/paper/2020/hash/887caadc3642e304ede659b734f79b00-Abstract.html
   arxiv: https://arxiv.org/abs/2007.01919
+  note: Spotlight
 -
   layout: paper
   paper-type: inproceedings
   selected: y
   year: 2020
   title: How do Decisions Emerge across Layers in Neural Models? Interpretation with Differentiable Masking
-  booktitle: "EMNLP (to appear)"
+  booktitle: EMNLP
   authors: Nicola De Cao, Michael Schlichtkrull, Wilker Aziz, and Ivan Titov
-  doc-url: https://arxiv.org/pdf/2004.14992.pdf
+  doc-url: https://www.aclweb.org/anthology/2020.emnlp-main.262/
   arxiv: https://arxiv.org/abs/2004.14992
 -
   layout: paper
@@ -73,6 +74,7 @@
   arxiv: https://arxiv.org/abs/1910.13890 
   openreview: https://openreview.net/forum?id=BJxSI1SKDH
   booktitle: "ICLR"
+  note: Spotlight 
 -
   layout: paper
   paper-type: inproceedings
