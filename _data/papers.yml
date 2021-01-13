@@ -19,7 +19,7 @@
   booktitle: NeurIPS
   doc-url: https://papers.nips.cc/paper/2020/hash/887caadc3642e304ede659b734f79b00-Abstract.html
   arxiv: https://arxiv.org/abs/2007.01919
-  note: Spotlight
+  note: Spotlight.
 -
   layout: paper
   paper-type: inproceedings
@@ -74,7 +74,7 @@
   arxiv: https://arxiv.org/abs/1910.13890 
   openreview: https://openreview.net/forum?id=BJxSI1SKDH
   booktitle: "ICLR"
-  note: Spotlight 
+  note: Spotlight.
 -
   layout: paper
   paper-type: inproceedings
