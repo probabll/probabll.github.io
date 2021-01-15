@@ -35,6 +35,19 @@
     {% endcase %}
     {{ include.paper.year }}.
     {% if include.paper.note %}<i>{{ include.paper.note }}</i>{% endif %}
+    
+    {% if include.paper.best == 'y' %}
+    <i class="fas fa-award" aria-hidden="true"></i> Best paper
+    {% endif %}
+    
+    {% if include.paper.honourable == 'y' %}
+    <i class="fas fa-ribbon" aria-hidden="true"></i> Honourable mention
+    {% endif %}
+    
+    {% if include.paper.spotlight == 'y' %}
+    <i class="fas fa-star" aria-hidden="true"></i> Spotlight
+    {% endif %}
+    
     <br/>
 
     <!-- resources -->

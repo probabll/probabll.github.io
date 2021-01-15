@@ -8,7 +8,7 @@
   booktitle: Coling 
   doc-url: https://www.aclweb.org/anthology/2020.coling-main.398/
   arxiv: https://arxiv.org/abs/2005.10283
-  note: Best Paper.
+  best: y
 -
   layout: paper
   paper-type: inproceedings
@@ -19,7 +19,7 @@
   booktitle: NeurIPS
   doc-url: https://papers.nips.cc/paper/2020/hash/887caadc3642e304ede659b734f79b00-Abstract.html
   arxiv: https://arxiv.org/abs/2007.01919
-  note: Spotlight.
+  spotlight: y
 -
   layout: paper
   paper-type: inproceedings
@@ -33,7 +33,7 @@
 -
   layout: paper
   paper-type: pre-print
-  selected: y
+  selected: n
   year: 2020
   title: Latent Transformations for Discrete-Data Normalising Flows 
   authors: Rob Hesselink and Wilker Aziz
@@ -74,7 +74,7 @@
   arxiv: https://arxiv.org/abs/1910.13890 
   openreview: https://openreview.net/forum?id=BJxSI1SKDH
   booktitle: "ICLR"
-  note: Spotlight.
+  spotlight: y
 -
   layout: paper
   paper-type: inproceedings
