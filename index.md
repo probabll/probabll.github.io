@@ -8,9 +8,8 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 
-# News
 
-
+{% capture news %}
 * 2020
     * [Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation](https://arxiv.org/pdf/2005.10283.pdf) is Coling2020's best paper!
     * [Efficient Marginalization of Discrete and Structured Latent Variables via Sparsity](https://arxiv.org/pdf/2007.01919.pdf) is a NeurIPS2020 spotlight!
@@ -26,3 +25,7 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
     * [DGM components](https://github.com/probabll/dgm.pt) for pytorch
     * [MDR helper for torch](https://github.com/EelcovdW/pytorch-constrained-opt)
 * `January 2019` We are born!
+{% endcapture %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "News" }}</h3>
+<div class="notice--info">{{ news | markdownify }}</div>
