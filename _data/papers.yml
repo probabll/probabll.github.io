@@ -70,9 +70,8 @@
   year: 2020
   title: A Latent Morphology Model for Open-Vocabulary Neural Machine Translation  
   authors: Duygu Ataman, Wilker Aziz, and Alexandra Birch
-  doc-url: https://arxiv.org/pdf/1910.13890.pdf
+  doc-url: https://openreview.net/forum?id=BJxSI1SKDH
   arxiv: https://arxiv.org/abs/1910.13890 
-  openreview: https://openreview.net/forum?id=BJxSI1SKDH
   booktitle: "ICLR"
   spotlight: y
 -
