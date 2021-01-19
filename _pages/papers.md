@@ -6,12 +6,14 @@ title: Papers
 
 This is what we have been up to recently
 
-{% for paper in site.data.papers %}
+{% assign papers = site.data.papers | where: "selected", "y" %}
+{% for paper in papers %}
 {% include paper.html paper=paper %}
 {% endfor %}
 
 And this is some of the good stuff we were up to prior to Probrab*ll*
 
-{% for paper in site.data.prior %}
+{% assign prior = site.data.prior | where: "selected", "y" %}
+{% for paper in prior %}
 {% include paper.html paper=paper %}
 {% endfor %}
