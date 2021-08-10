@@ -1,5 +1,14 @@
 -
   layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2021
+  title: Sparse Communication via Mixed Distributions
+  authors: António Farinhas, Wilker Aziz, Vlad Niculae, and André F. T. Martins
+  doc-url: https://arxiv.org/pdf/2108.02658.pdf
+  arxiv: https://arxiv.org/abs/2108.02658
+-
+  layout: paper
   paper-type: inproceedings
   selected: y
   year: 2020
