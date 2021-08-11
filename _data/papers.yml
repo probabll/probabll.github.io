@@ -3,6 +3,15 @@
   paper-type: pre-print
   selected: y
   year: 2021
+  title: Sampling-Based Minimum Bayes Risk Decoding for Neural Machine Translation
+  authors: Bryan Eikema and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2108.04718.pdf
+  arxiv: https://arxiv.org/abs/2108.04718
+-
+  layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2021
   title: Sparse Communication via Mixed Distributions
   authors: António Farinhas, Wilker Aziz, Vlad Niculae, and André F. T. Martins
   doc-url: https://arxiv.org/pdf/2108.02658.pdf
