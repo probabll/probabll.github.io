@@ -10,9 +10,12 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 {% capture news %}
-* 2021
+* **2021**
+  * 2 EMNLP2021 papers led by Nicola De Cao: [Editing Factual Knowledge in Language Models](https://arxiv.org/abs/2104.08164) and [Highly Parallel Autoregressive Entity Linking with Discriminative Correction]().
+  * In [this followup](https://arxiv.org/abs/2108.04718) to our [Coling2020 paper](https://www.aclweb.org/anthology/2020.coling-main.398/) we take MBR decoding from proof-of-concept to a robust and scalable decision rule.
+  * Probabll and DeepSPIN team up once more, this time we contribute [a formal account to mixed random variables](https://arxiv.org/abs/2108.02658) and take the first steps towards a theory of communication using sparse continuous random variables.
    * PhD and postdoc positions at the newly established [Mercury Machine Learning Lab](https://icai.ai/mercury-machine-learning-lab/) (a collaboration among Booking.com, TUDelft, and UvA) including [1 PhD position in ML/NLP](https://www.uva.nl/en/content/vacancies/2021/07/21-579-phd-4-and-postdoc-1-position-in-machine-learning.html?origin=FpX8Wqb2Sua7FLtTRS6KDw&cb), together with [Ivan Titov](http://ivan-titov.org). Deadline: August 23, 2021.
-* 2020
+* **2020**
     * [Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation](https://www.aclweb.org/anthology/2020.coling-main.398/) is Coling2020's best paper!
     * [Efficient Marginalization of Discrete and Structured Latent Variables via Sparsity](https://papers.nips.cc/paper/2020/hash/887caadc3642e304ede659b734f79b00-Abstract.html) is a NeurIPS2020 spotlight!
     * [How do Decisions Emerge in Neural Models?](https://www.aclweb.org/anthology/2020.emnlp-main.262/) has been accepted at EMNL2020!
