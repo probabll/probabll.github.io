@@ -24,6 +24,7 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
     * [Latent morphology NMT](https://openreview.net/forum?id=BJxSI1SKDH) is an ICRL2020 spotlight!
     * VI tutorial is going to Alicante
 * **Code** 
+    * [variational auto-encoders with mixed (continuous/discrete) random variables](https://github.com/probabll/mixed-rv-vae)
     * [auto-encoding variational neural machine translation](https://github.com/Roxot/AEVNMT.pt)
     * [interpretable predictions](https://github.com/bastings/interpretable_predictions)
     * [extensions to pytorch distributions](https://github.com/probabll/dists.pt) for pytorch
