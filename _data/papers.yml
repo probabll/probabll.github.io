@@ -37,8 +37,8 @@
   title: Highly Parallel Autoregressive Entity Linking with Discriminative Correction
   authors: Nicola De Cao, Wilker Aziz, and Ivan Titov
   booktitle: EMNLP 
-  doc-url: 
-  arxiv: 
+  doc-url: https://arxiv.org/pdf/2109.03792.pdf
+  arxiv: https://arxiv.org/abs/2109.03792
   code: https://github.com/nicola-decao/efficient-autoregressive-EL
 -
   layout: paper
