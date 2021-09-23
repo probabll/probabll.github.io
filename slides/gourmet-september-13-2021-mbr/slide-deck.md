@@ -180,6 +180,15 @@ But we have NMT models that give an approximate view of what good choices look l
 
 ---
 
+
+# Example
+
+Let's judge two candidates: `</s>` and `the mode isn't adequate </s>`.
+
+For utility, we will use ChrF, which values candidates that match  character $n$-grams of a good translation.
+
+---
+
 ```
 h                             y                                 p(y|x)    u(y, h;x)    p(y|x) * u(y, h;x)
 ----------------------------  ------------------------------  --------  -----------  --------------------
@@ -216,9 +225,15 @@ the mode isn't adequate </s>  </s>                              0.0645        37
 
 
 If all I know is that $y$ translates $x$ with probability $p(y|x, \theta)$, then my expectation on 
-$h$'s utility is the weighted average
-$$\mu_u(h; x, \theta) = \underbrace{\sum_{y \in \mathcal Y} p(y|x, \theta)u(y, h; x)}_{\text{also denoted by }\mathbb E[ u(Y, h; x) | \theta]}$$
-where, in turn and with some probability, each and every translation candidate is assumed to be a reference translation.
+$h$'s utility is the weighted average utility against every valid translation under the model.
+
+<div data-marpit-fragment>
+
+In technical terms we have,
+$$\mu_u(h; x, \theta) = \underbrace{\sum_{\textcolor{#DC3220}{y \in \mathcal Y}} \textcolor{#005AB5}{p(y|x, \theta)}u(y, h; x)}_{\text{also denoted by }\mathbb E[ u(Y, h; x) | \theta]}$$
+where, in turn and with <text style="color:#005AB5;">some probability</span>, <span style="color:#DC3220;">each and every  translation candidate</span> <span style="color: black">is assumed to be a reference translation.</span>
+
+</div>
 
 
 ---
@@ -240,7 +255,7 @@ where $y^{(s)}$ is sampled from the model with probability $p(y^{(s)}|x, \theta)
 
 Think of the NMT model as a bag of tokens, each token is a translation, if you put your hand in it and get a token, there's a probability $p(y|x,\theta)$ that you will get $y$.
 
-* Drawing samples like that is easy in NMT because of the way the model decomposes the probability of the total as a product of probability of the parts. 
+* Drawing samples like that is easy in NMT because of the way the model decomposes the probability of the total as a product of probabilities, one for each word in context from left-to-right.
 
 ---
 
@@ -248,67 +263,81 @@ Think of the NMT model as a bag of tokens, each token is a translation, if you p
 
 Let's judge two candidates: `</s>` and `the mode isn't adequate </s>`.
 
-We will estimate each candidate's expected utility using 20 samples from the model. 
+We will **estimate** each candidate's expected utility using 20 samples from the model. 
 
 For utility, we will use ChrF.
 
 ---
 
 ```
-h                             y ~ Y|x                               u(y, h;x)
-----------------------------  ----------------------------------  -----------
-</s>                          the mode is very probable </s>            12.71
-                              the mode is actually rare </s>            12.71
-                              mode </s>unfashionable </s>               12.71
-                              the mode </s>                             29.71
-                              nada nada nada nada </s>                  15.97
-                              nay </s>                                  48.57
-                              the mode is </s>                          24.93
-                              the is the </s>                           27.11
-                              mode mode mode mode </s>                  15.97
-                              mode is a mode </s>                       21.48
-                              the mode is actually rare </s>            12.71
-                              rare rare rare rare </s>                  15.97
-                              the mode is deficient </s>                14.48
-                              the mode is awkward </s>                  15.97
-                              uncool mode </s>                          23.07
-                              uncool mode </s>                          23.07
-                              nada nada </s>                            27.11
-                              I told you so didn't I ? </s>             14.48
-                              the is the </s>                           27.11
-                              the is </s>                               36.82
-                              [AVG]                                     21.63
+h                             y ~ Y|x                                   u(y, h;x)
+----------------------------  --------------------------------------  -----------
+</s>                          the mode is deficient </s>                    14.48
+                              the mode is very probable </s>                12.71
+                              isn't a thing </s>                            21.48
+                              uncool </s>                                   32.88
+                              the mode is </s>                              24.93
+                              the mode is </s>                              24.93
+                              </s>                                         100.00
+                              yes ! </s>                                    41.86
+                              uncool </s>                                   32.88
+                              the mode is actually rare </s>                12.71
+                              </s>                                         100.00
+                              the mode is what is is </s>                   15.19
+                              uncool mode </s>                              23.07
+                              the mode is inadequate </s>                   13.84
+                              the mode is inadequate </s>                   13.84
+                              the mode is inadequate </s>                   13.84
+                              the mode is awkward </s>                      15.97
+                              the mode is strange </s>                      15.97
+                              the fashion isn't fitting </s>                12.21
+                              the mode is awkward </s>                      15.97
+
+                              [AVG]                                         27.94
 ```
 
 
 ---
 
 ```
-h                             y ~ Y|x                               u(y, h;x)
-----------------------------  ----------------------------------  -----------
-the mode isn't adequate </s>  weird mode </s>                           33.37
-                              well I told you so didn't I ? </s>        16.69
-                              rare rare rare rare </s>                  16.90
-                              weird mode </s>                           33.37
-                              mode mode mode mode </s>                  28.24
-                              the mode is empty </s>                    49.20
-                              the mode is deficient </s>                44.47
-                              the mode </s>                             58.62
-                              uncool </s>                               18.16
-                              </s>                                      37.93
-                              fashion isn't a thing </s>                29.31
-                              mode is weird </s>                        35.96
-                              the mode is awkward </s>                  45.80
-                              what ? </s>                               21.01
-                              </s>                                      37.93
-                              </s>                                      37.93
-                              meh mode </s>fashionable </s>             21.67
-                              the mode is deficient </s>                44.47
-                              the mode is </s>                          62.16
-                              the mode is strange </s>                  50.25
-                              [AVG]                                     36.17
+h                             y ~ Y|x                                   u(y, h;x)
+----------------------------  --------------------------------------  -----------
+the mode isn't adequate </s>  what ? </s>                                   21.01
+                              the mode is </s>                              62.16
+                              the mode is awkward </s>                      45.80
+                              the mode is deficient </s>                    44.47
+                              fashion isn't a thing </s>                    29.31
+                              is the </s>                                   35.67
+                              the mode is inadequate </s>                   77.17
+                              the is the </s>                               33.96
+                              uncool </s>                                   18.16
+                              </s>                                          37.93
+                              what ? </s>                                   21.01
+                              the mode is </s>                              62.16
+                              the mode </s>                                 58.62
+                              the mode is very probable </s>                40.76
+                              the mode is what is is </s>                   43.96
+                              mode is strange </s>                          38.55
+                              the mode is awkward </s>                      45.80
+                              the mode </s>                                 58.62
+                              sometimes NMT does strange things </s>        14.09
+                              the fashion isn't fitting </s>                23.08
+
+                              [AVG]                                         40.61
 ```
 
+
+---
+
+# Hypothetical Q&A
+
+
+* <span style="color:#DC3220;">I've sampled from NMT before, it didn't look good. How about that?</span>
+  * A sample is *not* a decision, it's a summary of the model's beliefs expressed in *data space*. Unless the model is extremely confident, a single sample is unlikely to be a good translation.
+* <span style="color:#DC3220;">I've obtained lots of samples from NMT before, then ranked them by probability, that didn't look good either. How about that?</span>
+  * That's actually fine too. Unless the model is extremely confident, model probability is just not a good measure of overall utility. 
+* <span style="color:#DC3220;">Wait, are you telling me to sample or not?</span>
+  * Yes, but sampling is something we do to gather information, we still need to decide!
 
 ---
 
@@ -328,17 +357,93 @@ $$
 
 ---
 
+# Intractabilities of MBR decoding
+
+There are two sources of intractability in MBR decoding
+
+* The hypothesis space is intractable (much like in MAP decoding)
+* Expected utility is intractable
+
+We can circumvent both problems by sampling
+* probable candidates for search
+* pseudo-references for estimation of expected utility
+
+---
+
 ## Sampling-Based MBR
 
+Obtain $N$ independent samples from an NMT model
+* use unique samples as candidates
+* use all samples as pseudo-references
+* share samples across candidates for efficiency
 
+That is,
 $$
 \begin{aligned}
-y^\star &= \operatorname*{argmax}_{h \in (y^{(1)}, \ldots, y^{(S)}))} ~ \frac{1}{S} \sum_{s=1}^S u(y^{(s)}, h; x) \qquad y^{(s)} \sim Y|\theta, x
+y^\star &= \operatorname*{argmax}_{h \in (y^{(1)}, \ldots, y^{(N)}))} ~ \frac{1}{N} \sum_{n=1}^N u(y^{(n)}, h; x) \qquad y^{(n)} \sim Y|\theta, x
 \end{aligned}
 $$
-* Approximate the space of candidates using a sample
-* Approximate expected utility via Monte Carlo
-* Share samples across candidates for efficiency
+
+---
+
+
+# MBR N-by-N
+
+A decoder that improves with computation.
+
+
+![bg right 60%](img/mbr-n-by-n.png "caption")
+
+
+---
+
+## Limitations
+
+It's difficult to explore a large sample space, because the decoder runs in time $\mathcal O(N^2 \times U)$, where $U$ is the time for a single assessment of utility.
+
+---
+
+
+# MBR N-by-S
+
+A decoder that improves with computation.
+
+
+![bg right 70%](img/mbr-n-by-s.png "caption")
+
+
+---
+
+
+# Comparison
+
+
+
+![bg right 70%](img/mbr-c2f.png "caption")
+
+
+
+---
+
+## Overview of Decoders
+
+
+| Decoder | Objective Function    | Hypothesis Space  |
+|-|----|------|
+| MAP decoding | probability | all sentences |
+| - beam-search  | probability (adjusted for length) | most probable candidates |
+| MBR decoding | expected utility | all sentences |
+| - sampling-based MBR| MC estimate of expected utility | probable candidates |
+
+---
+
+# Remarks
+
+* Probability is tractable but a poor proxy to utility (requires ad-hoc patches)
+* Expected utility is intractable, but principled estimation is simple
+* Beam search enumerates candidates in approximately best-first order, which is harder to do in MBR decoding.
+* It's possible (even beneficial) to bias the search space towards high probability candidates (e.g., via beam search or nucleus sampling).
+* Next, we need to develop incremental search strategies for MBR.
 
 
 ---
