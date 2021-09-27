@@ -134,7 +134,7 @@ It's fair to claim that the model does not really want an empty translation, tha
 
 # A Model as a Representation of What's Known
  
-If you had to decide between `me </s>` and `the mode isn't adequate </s>`, and all you knew about language and translation is what an NMT model tells you:
+If you had to decide between `</s>` and `the mode isn't adequate </s>`, and all you knew about language and translation is what an NMT model tells you:
 ![The 10 most probable translation candidates of a given sentence order by probability. The 3 most probable candidates are clearly inadequate, essentially incomplete translations. Although these are the most probable candidates, they only account for less than 10 percent of the probability mass. It is fair to conclude they are rather rare, despite being the most probable options available.](img/mt-p.png "10 most probable candidates for the source sentence: a moda não é adequada")
 
 
