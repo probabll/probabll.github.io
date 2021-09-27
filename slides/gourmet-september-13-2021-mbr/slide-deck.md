@@ -90,7 +90,7 @@ NMT packs its knowledge in an entire distribution over candidates. To pick a tra
 
 # MAP Decoding
  
-The most common decision rule in NMT is known as *maximum-a-posteriori (MAP) decoding*. It tells us to pick the mode of the distribution, no matter how unprobable it is.
+The most common decision rule in NMT is known as *maximum-a-posteriori (MAP) decoding*. It tells us to pick the mode of the distribution, no matter how improbable it is.
 
 ![The 10 most probable translation candidates of a given sentence order by probability. The 3 most probable candidates are clearly inadequate, essentially incomplete translations. Although these are the most probable candidates, they only account for less than 10 percent of the probability mass. It is fair to conclude they are rather rare, despite being the most probable options available.](img/mt-p.png "10 most probable candidates for the source sentence: a moda não é adequada")
 
