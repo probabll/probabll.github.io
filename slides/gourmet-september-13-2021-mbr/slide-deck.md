@@ -180,6 +180,30 @@ But we have NMT models that give an approximate view of what good choices look l
 
 ---
 
+# Expected Utility
+
+
+If all I know is that $y$ translates $x$ with probability $p(y|x, \theta)$, then my expectation on 
+$h$'s utility is the weighted average utility against every valid translation under the model:
+
+<div data-marpit-fragment>
+
+In technical terms we have,
+
+$\overbrace{\mu_u(h; x, \theta)}^{\textcolor{gray}{\text{expected utility of }h}}=\, p(y^{(1)}|x, \theta) u(y^{(1)}, h; x) + p(y^{(2)}|x, \theta) u(y^{(2)}, h; x)+\cdots$ 
+</div>
+
+<div data-marpit-fragment>
+
+$\,\,\qquad\qquad\qquad= \sum_{\textcolor{#DC3220}{y \in \mathcal Y}} \textcolor{#005AB5}{p(y|x, \theta)}u(y, h; x) \qquad \small{\textcolor{gray}{\text{also denoted by }\mathbb E[ u(Y, h; x) | \theta]}}$
+
+where, in turn and with <text style="color:#005AB5;">some probability</span>, <span style="color:#DC3220;">each and every  translation candidate</span> <span style="color: black">is assumed to be a reference translation.</span>
+
+</div>
+
+
+---
+
 
 # Example
 
@@ -221,22 +245,36 @@ the mode isn't adequate </s>  </s>                              0.0645        37
 
 ---
 
-# Expected Utility
 
+## Minimum Bayes Risk Decoding
 
-If all I know is that $y$ translates $x$ with probability $p(y|x, \theta)$, then my expectation on 
-$h$'s utility is the weighted average utility against every valid translation under the model.
+MBR decoding tells us to choose the candidate's whose expected utility is maximum:
 
-<div data-marpit-fragment>
+$$
+\begin{aligned}
+y^\star &= \operatorname*{argmax}_{h \in \mathcal Y} ~ \mathbb E\left[u(Y, h; x) \mid \theta \right]
+\end{aligned}
+$$
 
-In technical terms we have,
-$$\mu_u(h; x, \theta) = \underbrace{\sum_{\textcolor{#DC3220}{y \in \mathcal Y}} \textcolor{#005AB5}{p(y|x, \theta)}u(y, h; x)}_{\text{also denoted by }\mathbb E[ u(Y, h; x) | \theta]}$$
-where, in turn and with <text style="color:#005AB5;">some probability</span>, <span style="color:#DC3220;">each and every  translation candidate</span> <span style="color: black">is assumed to be a reference translation.</span>
-
-</div>
-
+* The decision maker chooses a utility function $u$
+* The model contributes beliefs (i.e., the probability of $y$ given $x$ for every possible $y$)
+* We search through all possible candidate translations $h \in \mathcal Y$
 
 ---
+
+# Intractabilities of MBR decoding
+
+There are two sources of intractability in MBR decoding
+
+* The hypothesis space is intractable (much like in MAP decoding)
+* Expected utility is intractable
+
+We can circumvent both problems by sampling
+* probable candidates for search
+* pseudo-references for estimation of expected utility
+
+---
+
 
 # Summarising the Model's Beliefs
 
