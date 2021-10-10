@@ -247,6 +247,7 @@ the mode isn't adequate </s>  </s>                              0.0645        37
                               [SUM]                                                                 40.87
 ```
 
+
 ---
 
 <!-- _footer: "In NLP: [Goodman (1996)](https://aclanthology.org/P96-1024/), [Goel and Byrne (2000)](https://www.sciencedirect.com/science/article/abs/pii/S0885230800901384?via%3Dihub), [Kumar and Byrne (2002)](https://aclanthology.org/W02-1019/), [Sima'an (2003)](https://aclanthology.org/W03-3021/), [Kumar and Byrne (2004)](https://aclanthology.org/N04-1022/). </br> For *a lot* more, see [Eikema and Aziz (2021; section 6).](https://arxiv.org/pdf/2108.04718.pdf)" -->
@@ -496,7 +497,7 @@ the mode is awkward </s>                   15.97                                
 ---
 
 
-## MBR$_{N \times N}$
+# MBR$_{N \times N}$
 
 
 Unlike approximate MAP decoding, approximate MBR decoding improves with computation.
@@ -522,8 +523,7 @@ Sample size controls variance of our estimates of expected utility, a large sear
 
 ---
 
-
-## MBR$_{N \times S}$
+# MBR$_{N \times S}$
 
 * bigger search space helps
 * MC estimation seems robust enough with 100 samples
@@ -548,7 +548,7 @@ Utility functions can be slow, they may require external tools, complex alignmen
 ---
 
 
-## MBR$_{\text{C2F}}$
+# MBR$_{\text{C2F}}$
 
 Rank using expected skip-bigram F1, filter down to $T$ candidates,
 re-rank those using expected BEER.
@@ -620,6 +620,9 @@ and combinations
 
 ---
 
+***Some additional slides***
+
+---
 
 
 
@@ -633,3 +636,49 @@ and combinations
 * <span style="color:#DC3220;">Wait, are you telling me to sample or not?</span>
   * Yes, but sampling is something we do to gather information, we still need to decide and, for that, we need to pick a utility function.
 
+---
+
+# Why does it work?
+
+Let's illustrate a simple problem in continuous space. The problem is to decide under uncertainty where the model is a mixture of two Gaussians. 
+
+---
+
+## Why does it work?
+
+I will try to illustrate it with a toy example (mixture of 2 Gaussians).
+
+* The MAP solution is the candidate $h$ with highest probability density.
+* MAP assigns value to $h$ regardless of how much probability is distributed to outcomes that are similar to it.
+
+![](img/rbf-1.png)
+
+---
+
+<!-- _footer: "The radial basis function (rbf) exponentiates the negative of the squared distance." -->
+
+## Why does it work?
+
+Now I introduce a utility function (rbf) and computed its value in expectation.
+
+* The MBR solution is the candidate $h$ with highest expected utility.
+* Expected utility is sensitive to how much probability is distributed over similar outcomes. In this case, "similar" means *rbf-similar*.
+
+
+![](img/rbf-2.png)
+
+---
+
+## Why does it work?
+
+MBR re-expresses probability in terms of utility. The decision maker can use the utility to express preferences. For example, if we bypass rbf's exponentiation, we allow outcomes that are farther from $h$ to still exert a lot of influence in our decisions.
+
+![](img/rbf-vs-l2.png)
+
+---
+
+## Can it break?
+
+Yes, of course. Here I show a utility function that is not so discriminative, it considers $h$ beneficial wrt $y$ even when $y$ is relatively far from $h$. 
+
+![](img/ambiguity-rbf-vs-l2.png)
