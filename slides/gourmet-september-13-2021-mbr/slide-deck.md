@@ -23,7 +23,11 @@ footer: 'Bryan Eikema and Wilker Aziz'
 
 ---
 
-<!-- accessible blue and red: #005AB5 #DC3220 -->
+
+<!-- accessible blue and red: #005AB5 #DC3220  
+<span style='color: #005AB5'>blue</span>
+<span style='color: #DC3220'>red</span>
+-->
 
 # Neural Machine Translation
 
@@ -99,6 +103,7 @@ The most common decision rule in NMT is known as *maximum-a-posteriori (MAP) dec
 
 ---
 
+<!-- _footer: "[Eikema and Aziz (2020)](https://www.aclweb.org/anthology/2020.coling-main.398/)" -->
 
 # Inadequacy of the Mode 
 
@@ -110,7 +115,6 @@ The *mode* of the distribution is the single most probable outcome. Yet, in a la
 * The mode can only be a good summary of an entire distribution, when an NMT model has no reason to be uncertain.
   * Uncertainty is unavoidable: ambiguity in natural language, lack of context, change in domain, lack of training data, etc.
 
-<span style="float:right; font-size: smaller">[[Eikema and Aziz, 2020]](https://www.aclweb.org/anthology/2020.coling-main.398/)</span>
 
 ---
 
@@ -190,14 +194,14 @@ $h$'s utility is the weighted average utility against every valid translation un
 
 In technical terms we have,
 
-$\overbrace{\mu_u(h; x, \theta)}^{\textcolor{gray}{\text{expected utility of }h}}=\, p(y^{(1)}|x, \theta) u(y^{(1)}, h; x) + p(y^{(2)}|x, \theta) u(y^{(2)}, h; x)+\cdots$ 
+$\overbrace{\mu_u(h; x, \theta)}^{\textcolor{gray}{\text{expected utility of }h}}=\, p(y^{(1)}|x, \theta) \overbrace{u(y^{(1)}, h; x)}^{\textcolor{gray}{\text{utility wrt }y^{(1)}}} + p(y^{(2)}|x, \theta) \overbrace{u(y^{(2)}, h; x)}^{\textcolor{gray}{\text{utility wrt }y^{(2)}}}+\cdots$ 
 </div>
 
 <div data-marpit-fragment>
 
 $\,\,\qquad\qquad\qquad= \sum_{\textcolor{#DC3220}{y \in \mathcal Y}} \textcolor{#005AB5}{p(y|x, \theta)}u(y, h; x) \qquad \small{\textcolor{gray}{\text{also denoted by }\mathbb E[ u(Y, h; x) | \theta]}}$
 
-where, in turn and with <text style="color:#005AB5;">some probability</span>, <span style="color:#DC3220;">each and every  translation candidate</span> <span style="color: black">is assumed to be a reference translation.</span>
+where, in turn and with <text style="color:#005AB5;">some probability</span>, <span style="color:#DC3220;">each and every possible translation</span> <span style="color: black">is assumed to be a reference translation.</span>
 
 </div>
 
@@ -245,33 +249,52 @@ the mode isn't adequate </s>  </s>                              0.0645        37
 
 ---
 
+<!-- _footer: "In NLP: [Goodman (1996)](https://aclanthology.org/P96-1024/), [Goel and Byrne (2000)](https://www.sciencedirect.com/science/article/abs/pii/S0885230800901384?via%3Dihub), [Kumar and Byrne (2002)](https://aclanthology.org/W02-1019/), [Sima'an (2003)](https://aclanthology.org/W03-3021/), [Kumar and Byrne (2004)](https://aclanthology.org/N04-1022/). </br> For *a lot* more, see [Eikema and Aziz (2021; section 6).](https://arxiv.org/pdf/2108.04718.pdf)" -->
 
-## Minimum Bayes Risk Decoding
+# Minimum Bayes Risk Decoding
 
 MBR decoding tells us to choose the candidate's whose expected utility is maximum:
-
 $$
 \begin{aligned}
 y^\star &= \operatorname*{argmax}_{h \in \mathcal Y} ~ \mathbb E\left[u(Y, h; x) \mid \theta \right]
 \end{aligned}
 $$
 
-* The decision maker chooses a utility function $u$
-* The model contributes beliefs (i.e., the probability of $y$ given $x$ for every possible $y$)
-* We search through all possible candidate translations $h \in \mathcal Y$
+* Decision maker: chooses the utility function $u$
+* NMT model: contributes beliefs (i.e., the probability of $y$ given $x$ for every possible $y$)
+* Search algorithm: enumerates candidate translations $h \in \mathcal Y$
+
+
+---
+
+<!-- _footer:  'This results is known in MT literature since at least [Kumar and Byrne (2004)](https://aclanthology.org/N04-1022)' -->
+
+## But,  we don't need to pick a utility function when we use MAP decoding, right?
+
+<div data-marpit-fragment>
+
+Actually, MBR decoding with $u(y, h; x)=1$ if, and only if, $y=h$, and $0$ otherwise is exactly MAP decoding.
+
+So, when we make decisions via MAP decoding, we implicitly decide via MBR where our utility function is the **exact match** function. 
+
+</div>
 
 ---
 
 # Intractabilities of MBR decoding
 
-There are two sources of intractability in MBR decoding
+There are **two sources** of intractability in MBR decoding
+$$
+\begin{aligned}
+y^\star &= \operatorname*{argmax}_{\textcolor{#DC3220}{h \in \mathcal Y}} ~ \textcolor{#DC3220}{\mathbb{E}[}u(\textcolor{#DC3220}{Y}, h; x) \mid \theta \textcolor{#DC3220}{]}
+\end{aligned}
+$$
 
-* The hypothesis space is intractable (much like in MAP decoding)
-* Expected utility is intractable
+* The objective function (expected utility) requires an intractable sum
+<span style="color: gray;">this is different from MAP decoding, where the objective is tractable</span>
+* The hypothesis space $\mathcal Y$ is unbounded 
+  <span style="color: gray;">just like in MAP decoding</span>
 
-We can circumvent both problems by sampling
-* probable candidates for search
-* pseudo-references for estimation of expected utility
 
 ---
 
@@ -282,10 +305,13 @@ The space of *all* translation candidates is unbounded, making it impossible for
 
 But, expectations can be estimated in a principled manner via *Monte Carlo*.
 
+<div data-marpit-fragment>
+
 We use the **sample mean**
 $$\hat \mu_u(h; x, \theta) = \frac{1}{S} \sum_{s=1}^S u(y^{(s)}, h; x)$$
 where $y^{(s)}$ is sampled from the model with probability $p(y^{(s)}|x, \theta)$.
 
+</div>
 
 ---
 
@@ -293,7 +319,8 @@ where $y^{(s)}$ is sampled from the model with probability $p(y^{(s)}|x, \theta)
 
 Think of the NMT model as a bag of tokens, each token is a translation, if you put your hand in it and get a token, there's a probability $p(y|x,\theta)$ that you will get $y$.
 
-* Drawing samples like that is easy in NMT because of the way the model decomposes the probability of the total as a product of probabilities, one for each word in context from left-to-right.
+* Drawing samples like that is easy in NMT because of the way the model decomposes the probability of a complete sequence as a product of probabilities, one for each target word in context from left-to-right.
+
 
 ---
 
@@ -306,6 +333,12 @@ We will **estimate** each candidate's expected utility using 20 samples from the
 For utility, we will use ChrF.
 
 ---
+
+<!-- _header: '' -->
+<!-- _paginate: false -->
+<!-- _footer:  '' -->
+
+## Monte Carlo Estimation of Expected Utility (I)
 
 ```
 h                             y ~ Y|x                                   u(y, h;x)
@@ -337,6 +370,13 @@ h                             y ~ Y|x                                   u(y, h;x
 
 ---
 
+
+<!-- _header: '' -->
+<!-- _paginate: false -->
+<!-- _footer:  '' -->
+
+## Monte Carlo Estimation of Expected Utility (II)
+
 ```
 h                             y ~ Y|x                                   u(y, h;x)
 ----------------------------  --------------------------------------  -----------
@@ -364,56 +404,48 @@ the mode isn't adequate </s>  what ? </s>                                   21.0
                               [AVG]                                         40.61
 ```
 
-
 ---
 
-# Hypothetical Q&A
 
+# Revisiting Intractabilities of MBR Decoding 
 
-* <span style="color:#DC3220;">I've sampled from NMT before, it didn't look good. How about that?</span>
-  * A sample is *not* a decision, it's a summary of the model's beliefs expressed in *data space*. Unless the model is extremely confident, a single sample is unlikely to be a good translation.
-* <span style="color:#DC3220;">I've obtained lots of samples from NMT before, then ranked them by probability, that didn't look good either. How about that?</span>
-  * That's actually fine too. Unless the model is extremely confident, model probability is just not a good measure of overall utility. 
-* <span style="color:#DC3220;">Wait, are you telling me to sample or not?</span>
-  * Yes, but sampling is something we do to gather information, we still need to decide!
-
----
-
-## Minimum Bayes Risk Decoding
-
-MBR decoding tells us to choose the candidate's whose expected utility is maximum:
-
+There are **two sources** of intractability in MBR decoding
 $$
 \begin{aligned}
-y^\star &= \operatorname*{argmax}_{h \in \mathcal Y} ~ \mathbb E\left[u(Y, h; x) \mid \theta \right]
+y^\star &= \operatorname*{argmax}_{\textcolor{#DC3220}{h \in \mathcal Y}} ~ \textcolor{#DC3220}{\mathbb{E}[}u(\textcolor{#DC3220}{Y}, h; x) \mid \theta \textcolor{#DC3220}{]}
 \end{aligned}
 $$
 
-* The decision maker chooses a utility function
-* The model contributes beliefs
-* We search through all possible translations
+* The ~~objective function (expected utility) requires an intractable sum~~
+<span style="color: #005AB5;">but unbiased estimation is tractable via MC</span>
+* The hypothesis space $\mathcal Y$ is unbounded 
+  <span style="color: #005AB5;">but, like in MAP decoding, we can use a small subset</span>
 
 ---
 
-# Intractabilities of MBR decoding
+# Hypothesis Space
 
-There are two sources of intractability in MBR decoding
+Ideally, we want to search through a small space of hypotheses which mostly contains candidates that are highly beneficial in expectation.
 
-* The hypothesis space is intractable (much like in MAP decoding)
-* Expected utility is intractable
-
-We can circumvent both problems by sampling
-* probable candidates for search
-* pseudo-references for estimation of expected utility
+* This sort of **approximately best-first** enumeration is what beam search does for MAP decoding.
+* Unlike probability, expected utility cannot be computed incrementally from left-to-right, thus approximate best-first enumeration is a lot more difficult.
+* Some tractable heuristics:
+  * a set of unbiased samples
+  * a set of samples aimed at high-probability outcomes (e.g., nucleus sampling)
+  * the most probable outcomes (output of k-best beam search)
 
 ---
 
-## Sampling-Based MBR
+<!-- _footer: '[Bryan and Eikema (2020; section 7.4)](https://www.aclweb.org/anthology/2020.coling-main.398/)' -->
+
+# Sampling-Based MBR <span style="float:right; font-size: smaller"> MBR$_{N\times N}$ </span>
 
 Obtain $N$ independent samples from an NMT model
 * use unique samples as candidates
 * use all samples as pseudo-references
 * share samples across candidates for efficiency
+
+<div data-marpit-fragment>
 
 That is,
 $$
@@ -422,42 +454,120 @@ y^\star &= \operatorname*{argmax}_{h \in (y^{(1)}, \ldots, y^{(N)}))} ~ \frac{1}
 \end{aligned}
 $$
 
+</div>
+
 ---
 
 
-# MBR N-by-N
+<!-- _header: '' -->
+<!-- _paginate: false -->
+<!-- _footer:  '' -->
 
-A decoder that improves with computation.
+## Shared Samples
+
+```
+y ~ Y|x                           u(y, "</s>";x)    u(y, "the mode isn't adequate </s>";x)
+------------------------------  ----------------  ----------------------------------------
+the mode is deficient </s>                 14.48                                     44.47
+the mode is very probable </s>             12.71                                     40.76
+isn't a thing </s>                         21.48                                     38.07
+uncool </s>                                32.88                                     18.16
+the mode is </s>                           24.93                                     62.16
+the mode is </s>                           24.93                                     62.16
+</s>                                      100.00                                     37.93
+yes ! </s>                                 41.86                                     19.55
+uncool </s>                                32.88                                     18.16
+the mode is actually rare </s>             12.71                                     42.80
+</s>                                      100.00                                     37.93
+the mode is what is is </s>                15.19                                     43.96
+uncool mode </s>                           23.07                                     29.39
+the mode is inadequate </s>                13.84                                     77.17
+the mode is inadequate </s>                13.84                                     77.17
+the mode is inadequate </s>                13.84                                     77.17
+the mode is awkward </s>                   15.97                                     45.80
+the mode is strange </s>                   15.97                                     50.25
+the fashion isn't fitting </s>             12.21                                     23.08
+the mode is awkward </s>                   15.97                                     45.80
+
+[AVG]                                      27.94                                     44.60
+```
 
 
-![bg right 60%](img/mbr-n-by-n.png "caption")
+---
+
+
+## MBR$_{N \times N}$
+
+
+Unlike approximate MAP decoding, approximate MBR decoding improves with computation.
+
+
+![bg right 55%](img/mbr-n-by-n.png "caption")
 
 
 ---
 
 ## Limitations
 
-It's difficult to explore a large sample space, because the decoder runs in time $\mathcal O(N^2 \times U)$, where $U$ is the time for a single assessment of utility.
+It's difficult to explore a large sample space because the decoder runs in time 
+$\mathcal O(N^2 \times U)$, where $U$ is the time for a single assessment of utility.
+
+<div data-marpit-fragment>
+
+**Strategy** Disentangle sample size from search space
+
+Sample size controls variance of our estimates of expected utility, a large search space increases our chances of enumerating good and bad translations, but expected utility is robust to inadequate samples.
+
+</div>
 
 ---
 
 
-# MBR N-by-S
+## MBR$_{N \times S}$
 
-A decoder that improves with computation.
+* bigger search space helps
+* MC estimation seems robust enough with 100 samples
 
 
 ![bg right 70%](img/mbr-n-by-s.png "caption")
 
+---
+
+## Limitation
+
+Utility functions can be slow, they may require external tools, complex alignment algorithms, expensive neural models. 
+
+<div data-marpit-fragment>
+
+**Strategy** Prune bad candidates using a proxy utility.
+
+![](img/c2f.png)
+
+</div>
 
 ---
 
 
+## MBR$_{\text{C2F}}$
+
+Rank using expected skip-bigram F1, filter down to $T$ candidates,
+re-rank those using expected BEER.
+
+![](img/mbr-c2f.png "caption")
+
+
+---
+
 # Comparison
 
+Strategies to enumerate candidates
+$\quad$**A**ncestral samples
+$\quad$**N**ucleus samples
+$\quad$**B**eam search
+and combinations
 
 
-![bg right 70%](img/mbr-c2f.png "caption")
+![bg right 90%](img/mbr-comp.png "caption")
 
 
 
@@ -477,16 +587,18 @@ A decoder that improves with computation.
 
 # Remarks
 
-* Probability is tractable but a poor proxy to utility (requires ad-hoc patches)
-* Expected utility is intractable, but principled estimation is simple
-* Beam search enumerates candidates in approximately best-first order, which is harder to do in MBR decoding.
+* Probability is tractable but a poor proxy to utility (requires ad-hoc patches).
+* Expected utility is intractable, but principled estimation is simple and affordable.
+* Beam search enumerates candidates in approximately best-first order,
+ which is hard to do for MBR decoding. **<span style='color: #005AB5; float:right; '>But we are working on it :D</span>**
 * It's possible (even beneficial) to bias the search space towards high probability candidates (e.g., via beam search or nucleus sampling).
-* Next, we need to develop incremental search strategies for MBR.
+<span style='color: gray;'>Despite this finding, using high-probability candidates alone is risky (esp in OOD)</span>
+* MBR gives us an additional knob to express qualitative values: *the utility function*.
 
 
 ---
 
-## Overview of Pre-Print
+# Overview of Pre-Print
 
 * MBR is robust
 * but MBR is slow
@@ -497,4 +609,27 @@ A decoder that improves with computation.
 ---
 
 
-# Thanks!
+# Beyond the pre-print (or *what we are up to*)
+
+* Approximate best-first search for MBR
+* MBR for neural utilities 
+* Utilities that control for certain attributes 
+
+<span style='float:right;'>**Thanks!**</span>
+
+
+---
+
+
+
+
+# Hypothetical Q&A
+
+
+* <span style="color:#DC3220;">I've sampled from NMT before, it didn't look good. How about that?</span>
+  * A sample is *not* a decision, it's a summary of the model's beliefs expressed in *data space*. Unless the model is extremely confident, a single sample is unlikely to be a good translation.
+* <span style="color:#DC3220;">I've obtained lots of samples from NMT before, then ranked them by probability, that didn't look good either. How about that?</span>
+  * That's actually fine too. Unless the model is extremely confident, model probability is just not a good measure of overall utility. 
+* <span style="color:#DC3220;">Wait, are you telling me to sample or not?</span>
+  * Yes, but sampling is something we do to gather information, we still need to decide and, for that, we need to pick a utility function.
+
