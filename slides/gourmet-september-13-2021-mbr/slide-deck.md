@@ -560,28 +560,14 @@ re-rank those using expected BEER.
 
 # Comparison
 
-Strategies to enumerate candidates
-$\quad$**A**ncestral samples
-$\quad$**N**ucleus samples
-$\quad$**B**eam search
-and combinations
+MBR is robust
+* it works with large search spaces
+* it improves the beam ranking
+* we can combine enumeration strategies for a boost
 
 
 ![bg right 90%](img/mbr-comp.png "caption")
 
-
-
----
-
-## Overview of Decoders
-
-
-| Decoder | Objective Function    | Hypothesis Space  |
-|-|----|------|
-| MAP decoding | probability | all sentences |
-| - beam-search  | probability (adjusted for length) | most probable candidates |
-| MBR decoding | expected utility | all sentences |
-| - sampling-based MBR| MC estimate of expected utility | probable candidates |
 
 ---
 
@@ -682,3 +668,16 @@ MBR re-expresses probability in terms of utility. The decision maker can use the
 Yes, of course. Here I show a utility function that is not so discriminative, it considers $h$ beneficial wrt $y$ even when $y$ is relatively far from $h$. 
 
 ![](img/ambiguity-rbf-vs-l2.png)
+
+
+---
+
+## Overview of Decoders
+
+
+| Decoder | Objective Function    | Hypothesis Space  |
+|-|----|------|
+| MAP decoding | probability | all sentences |
+| - beam-search  | probability (adjusted for length) | most probable candidates |
+| MBR decoding | expected utility | all sentences |
+| - sampling-based MBR| MC estimate of expected utility | probable candidates |
