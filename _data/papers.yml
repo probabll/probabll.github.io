@@ -26,7 +26,7 @@
   title: Editing Factual Knowledge in Language Models
   authors: Nicola De Cao, Wilker Aziz, and Ivan Titov
   booktitle: EMNLP 
-  doc-url: https://arxiv.org/pdf/2104.08164.pdf
+  doc-url: https://aclanthology.org/2021.emnlp-main.522/
   arxiv: https://arxiv.org/abs/2104.08164
   code: https://github.com/nicola-decao/KnowledgeEditor
 -
@@ -37,7 +37,7 @@
   title: Highly Parallel Autoregressive Entity Linking with Discriminative Correction
   authors: Nicola De Cao, Wilker Aziz, and Ivan Titov
   booktitle: EMNLP 
-  doc-url: https://arxiv.org/pdf/2109.03792.pdf
+  doc-url: https://aclanthology.org/2021.emnlp-main.604/
   arxiv: https://arxiv.org/abs/2109.03792
   code: https://github.com/nicola-decao/efficient-autoregressive-EL
 -
