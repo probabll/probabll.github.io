@@ -18,3 +18,7 @@ Here you will find events such as reading groups and seminars we organise. You m
 * Deep learning: biweekly on Thursday
     * [mailing list](https://list.uva.nl/mailman/listinfo/dlm-illc)
 
+## Talks
+
+* [Unbabel: November 22, 2021](slides/gourmet-november-22-2021-mbr/slide-deck.html)
+* [Gourmet: September 13, 2021](slides/gourmet-september-13-2021-mbr/slide-deck.html)
