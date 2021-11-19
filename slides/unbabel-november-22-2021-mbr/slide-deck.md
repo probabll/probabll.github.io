@@ -23,6 +23,7 @@ footer: 'Bryan Eikema and Wilker Aziz'
 
 ---
 
+<!-- _footer: For NMT, any sequence $y$ made of known target-language tokens and ending in a special end-of-sequence symbol is a valid translation candidate. -->
 
 <!-- accessible blue and red: #005AB5 #DC3220  
 <span style='color: #005AB5'>blue</span>
@@ -44,6 +45,8 @@ Another way of saying this is: <span style='text-align: center; color: #005AB5'>
 
 # Distribution over Translation Candidates
 
+<!-- _footer: The bar plot contains infinitely many bars, NMT offers a tractable API to interact with it: assess the probability of an outcome (useful for training), draw a random outcome (useful for exploration), enumerate outcomes (useful for search). -->
+
 You can imagine such an object as a *bar plot*: 
 
 
@@ -57,18 +60,6 @@ img {
 ![The 10 most probable translation candidates of a given sentence order by probability. The 3 most probable candidates are clearly inadequate, essentially incomplete translations. Although these are the most probable candidates, they only account for less than 10 percent of the probability mass. It is fair to conclude they are rather rare, despite being the most probable options available.](img/mt-p.png "10 most probable candidates for the source sentence: a moda não é adequada")
 <span style="float:right; color: gray; font-size: smaller">Most probable candidates and their probabilities</span>
 
-* For NMT, any sequence $y$ made of known target-language tokens and ending in a special end-of-sequence symbol is a valid translation candidate.
-
----
-
-# Quiz
-
-Let's analyse this example for a bit longer:
-![The 10 most probable translation candidates of a given sentence order by probability. The 3 most probable candidates are clearly inadequate, essentially incomplete translations. Although these are the most probable candidates, they only account for less than 10 percent of the probability mass. It is fair to conclude they are rather rare, despite being the most probable options available.](img/mt-p.png "10 most probable candidates for the source sentence: a moda não é adequada")
-
-* What is the most probable translation (i.e., the *mode* of the distribution)? 
-* What is the probability that a translation should be non-empty?
-* What is the probability that a translation should contain the word `mode`?
 
 ---
 
@@ -117,6 +108,23 @@ The *mode* of the distribution is the single most probable outcome. Yet, in a la
 
 
 ---
+
+<!-- _header: First few sentences in newstest2016 (ro-en) -->
+
+![bg 90%](img/pmfs1.png)
+
+---
+
+# Quiz
+
+Let's analyse this example for a bit longer:
+![The 10 most probable translation candidates of a given sentence order by probability. The 3 most probable candidates are clearly inadequate, essentially incomplete translations. Although these are the most probable candidates, they only account for less than 10 percent of the probability mass. It is fair to conclude they are rather rare, despite being the most probable options available.](img/mt-p.png "10 most probable candidates for the source sentence: a moda não é adequada")
+
+* What is the probability that a translation should be non-empty?
+* What is the probability that a translation should contain the word `mode`?
+
+---
+
 
 # Beliefs
  
