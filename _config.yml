@@ -16,7 +16,7 @@
 title: Probabll
 email: w.aziz@uva.nl
 description: >- # this means to ignore newlines until "baseurl:"
-  Probabilistic Language Learning Group
+  Statistics, machine learning, formal languages, and natural language processing meet here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wilkeraziz
