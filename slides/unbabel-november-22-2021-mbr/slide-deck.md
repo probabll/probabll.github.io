@@ -94,7 +94,7 @@ The most common decision rule in NMT is known as *maximum-a-posteriori (MAP) dec
 
 ---
 
-<!-- _footer: "[Eikema and Aziz (2020)](https://www.aclweb.org/anthology/2020.coling-main.398/)" -->
+<!-- _footer: "In [Eikema and Aziz (2020)](https://www.aclweb.org/anthology/2020.coling-main.398/) we connected MAP decoding and the inadequacy of the mode to a number of pathologies of NMT." -->
 
 # Inadequacy of the Mode 
 
@@ -262,7 +262,7 @@ the mode isn't adequate </s>  </s>                              0.0645        37
 
 # Minimum Bayes Risk Decoding
 
-MBR decoding tells us to choose the candidate's whose expected utility is maximum:
+MBR decoding tells us to choose the candidate whose expected utility is maximum:
 $$
 \begin{aligned}
 y^\star &= \operatorname*{argmax}_{h \in \mathcal Y} ~ \mathbb E\left[u(Y, h; x) \mid \theta \right]
@@ -278,7 +278,7 @@ $$
 
 # An *Origin Story*
 
-<!-- _footer:  'This results is known in MT literature since at least [Kumar and Byrne (2004)](https://aclanthology.org/N04-1022)' -->
+<!-- _footer:  'This result is known in MT literature since at least [Kumar and Byrne (2004)](https://aclanthology.org/N04-1022)' -->
 
 Consider the *exact match* utility $1_y(h)$ which is 1 when $y$ and $h$ are the same and 0 otherwise. Let's compute its expected value under the model:
 
@@ -337,6 +337,8 @@ $$
 
 # Summarising the Model's Beliefs
 
+<!-- _footer: "The word *sample* here has a technical meaning which is **not** satisfied by beam-search outputs, nucleus samples or top-k samples. In fact, this was not used in MT until [Eikema and Aziz (2020)](https://www.aclweb.org/anthology/2020.coling-main.398/). " -->
+
 The space of *all* translation candidates is unbounded, making it impossible for us to exactly compute the expected utility of any given candidate.
 
 But, expectations can be estimated in a principled manner via *Monte Carlo*.
@@ -353,9 +355,18 @@ where $y^{(s)}$ is sampled from the model with probability $p(y^{(s)}|x, \theta)
 
 # What's a Sample?
 
+<!-- _footer: 'As NMT factorises probability as a product of conditionals, *ancestral sampling* (Robert and Casella, 2004) draws a sample of length $n$ in time $\mathcal O(n)$' -->
+
 Think of the NMT model as a bag of tokens, each token is a translation, if you put your hand in it and get a token, there's a probability $p(y|x,\theta)$ that you will get $y$.
 
 * Drawing samples like that is easy in NMT because of the way the model decomposes the probability of a complete sequence as a product of probabilities, one for each target word in context from left-to-right.
+
+
+<div data-marpit-fragment>
+
+$$Y_j | \theta, x, y_{<j} \sim \mathrm{Cat}(f(x, y_{<j}; \theta))$$
+
+</div>
 
 
 ---
@@ -555,8 +566,8 @@ Utility functions can be slow, they may require external tools, complex alignmen
 
 # MBR$_{\text{C2F}}$
 
-Rank using expected skip-bigram F1, filter down to $T$ candidates,
-re-rank those using expected BEER.
+Rank using a proxy objective (e.g., expected skip-bigram F1), filter down to $T$ candidates,
+pick the translation that maximises the target objective (e.g., expected BEER).
 
 ![](img/mbr-c2f.png "caption")
 
@@ -581,7 +592,7 @@ MBR is robust
 * Probability is tractable but a poor proxy to utility (requires ad-hoc patches).
 * Expected utility is intractable, but principled estimation is simple and affordable.
 * Beam search enumerates candidates in approximately best-first order,
- which is hard to do for MBR decoding. **<span style='color: #005AB5; float:right; '>But we are working on it :D</span>**
+ which is hard to do for MBR decoding. *<span style='color: #005AB5; float:right; '>But we are working on it :D</span>*
 * It's possible (even beneficial) to bias the search space towards high probability candidates (e.g., via beam search or nucleus sampling).
 <span style='color: gray;'>Despite this finding, using high-probability candidates alone is risky (esp in OOD)</span>
 * MBR gives us an additional knob to express qualitative values: *the utility function*.
@@ -591,25 +602,22 @@ MBR is robust
 
 # Overview of Pre-Print
 
-* MBR is robust
-* but MBR is slow
-* we speed it up considerably making it linear in the size of the set of candidates 
-* we test various utilities (and BEER comes out best)
+* MBR is robust (but slow) 
+* we disentangle the sources of intractability in MBR
+* and speed it up considerably making it linear in the size of the set of candidates 
+* we test various lexical-based utilities (and BEER comes out best)
 * we combine with other approximations such as beam search and nucleus sampling as they find good (and small) hypothesis spaces
+* our related work section is probably the most coherent and comprehensive account of MBR literature you can find
 
----
-
-
-# Beyond the pre-print (or *what we are up to*)
-
-* Approximate best-first search for MBR
-* MBR for neural utilities 
-* Utilities that control for certain attributes 
+<div data-marpit-fragment>
 
 <span style='float:right;'>**Thanks!**</span>
 
+</div>
 
 ---
+
+
 
 ***Some additional slides***
 
