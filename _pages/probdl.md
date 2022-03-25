@@ -17,7 +17,7 @@ In 2022, the live sessions will take place at the ILLC (room F1.15) on the follo
 
 * Part 1: March 28, 2022 from 13:00 to 16:00
 * Part 2: March 29, 2022 from 09:00 to 11:30
-* Part 3: March 30, 2022 from 09:00 to 12:00
+* Part 3: March 30, 2022 from 13:30 to 16:30
 * Part 4: March 31, 2022 from 09:00 to 11:00
 
 If you'd like to join the sessions contact Bryan Eikema (b.eikema@uva.nl) or Wilker Aziz (w.aziz@uva.nl). Note that these 4 sessions will be recorded as part of the 2022 edition of DL2.
