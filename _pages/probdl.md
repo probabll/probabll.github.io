@@ -7,7 +7,7 @@ title: ProbDL
 We offer these classes as part of the course Deep Learning 2 at the UvA.
 
 * [Part 1 - Deep probabilistic models](/slides/DL2/probdl1.pdf) 
-* [Part 2a - Deep discrete latent variable models](/slides/probdl2a.pdf)
+* [Part 2a - Deep discrete latent variable models](/slides/DL2/probdl2a.pdf)
 * Part 2b - Deep continuous latent variable models
 * Part 3 - Advanced topics
 
