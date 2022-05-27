@@ -1,5 +1,16 @@
 -
   layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2022
+  title: Sparse Communication via Mixed Distributions
+  authors: António Farinhas, Wilker Aziz, Vlad Niculae, and André F. T. Martins
+  booktitle: ICLR 
+  doc-url: https://arxiv.org/pdf/2108.02658.pdf
+  arxiv: https://arxiv.org/abs/2108.02658
+  code: https://github.com/probabll/mixed-rv-vae
+-
+  layout: paper
   paper-type: pre-print
   selected: y
   year: 2021
@@ -8,16 +19,6 @@
   doc-url: https://arxiv.org/pdf/2108.04718.pdf
   arxiv: https://arxiv.org/abs/2108.04718
   code: https://github.com/Roxot/mbr-nmt
--
-  layout: paper
-  paper-type: pre-print
-  selected: y
-  year: 2021
-  title: Sparse Communication via Mixed Distributions
-  authors: António Farinhas, Wilker Aziz, Vlad Niculae, and André F. T. Martins
-  doc-url: https://arxiv.org/pdf/2108.02658.pdf
-  arxiv: https://arxiv.org/abs/2108.02658
-  code: https://github.com/probabll/mixed-rv-vae
 -
   layout: paper
   paper-type: inproceedings
