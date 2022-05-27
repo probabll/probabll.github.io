@@ -11,6 +11,7 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 {% capture news %}
 * **2022**
+  * Talk at [Structure Prediction for NLP](http://structuredprediction.github.io/SPNLP22) ([slides](https://probabll.github.io/slides/spnlp2022.pdf), [colab demo](https://colab.research.google.com/github/probabll/demo-mbr-nmt/blob/main/German-English.ipynb))
   * [Sparse communication via mixed distributions](https://arxiv.org/pdf/2108.02658.pdf) has been accepted at ICLR2022!
 * **2021**
   * 2 EMNLP2021 papers led by Nicola De Cao: [Editing Factual Knowledge in Language Models](https://arxiv.org/abs/2104.08164) and [Highly Parallel Autoregressive Entity Linking with Discriminative Correction]().
