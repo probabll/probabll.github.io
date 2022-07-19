@@ -18,7 +18,7 @@ Past members
 {% include former.html person=person %}
 {% endfor %}
 
-</br>
+<br/>
 
 And we often collaborate with some great people
 
