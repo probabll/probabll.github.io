@@ -8,7 +8,7 @@ title: Jobs
 
 # Open PhD position
 
-I have an opening for one PhD position in machine learning for natural language processing. See the [call]() and instructions to apply. Please apply via that link by August 21 2022. 
+I have an opening for one PhD position in machine learning for uncertainty-aware and explainable models of natural language generation. See the [call]() and instructions to apply. Please apply via that link by August 21 2022. 
 
 *Do not email me with your application.* To be considered for any position I advertise, you must use the website linked with the call. Do email me with any specific questions about the position.
 
