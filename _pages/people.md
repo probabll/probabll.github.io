@@ -13,9 +13,9 @@ We are
 
 Past members
 
-{% assign guests = site.data.guests | where: "selected", "y" %}
+{% assign guests = site.data.former | where: "selected", "y" %}
 {% for person in guests %}
-{% include friend.html person=person %}
+{% include former.html person=person %}
 {% endfor %}
 
 And we often collaborate with some great people
