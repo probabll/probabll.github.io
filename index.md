@@ -11,7 +11,9 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 {% capture news %}
 * **2022**
-  * Talk at [Structure Prediction for NLP](http://structuredprediction.github.io/SPNLP22) ([slides](https://probabll.github.io/slides/spnlp2022.pdf), [colab demo](https://colab.research.google.com/github/probabll/demo-mbr-nmt/blob/main/German-English.ipynb))
+  * [Gonçalo M. Correia](https://www.goncalomcorreia.com) passed his PhD defence! Congratulations Dr. Correia for your awesome thesis on [Learnable Sparsity and Weak Supervision for Data-Efficient, Transparent, and Compact Neural Models]().
+  * Wilker gave a talk at [Structure Prediction for NLP](http://structuredprediction.github.io/SPNLP22) ([slides](https://probabll.github.io/slides/spnlp2022.pdf), [colab demo](https://colab.research.google.com/github/probabll/demo-mbr-nmt/blob/main/German-English.ipynb)).
+  * Bryan gave a [talk at the University of Copenhagen](https://ai.ku.dk/events/ai-seminar-by-bryan-eikema/) on Distribution-Aware Decoding for NMT.
   * [Sparse communication via mixed distributions](https://arxiv.org/pdf/2108.02658.pdf) has been accepted at ICLR2022!
 * **2021**
   * 2 EMNLP2021 papers led by Nicola De Cao: [Editing Factual Knowledge in Language Models](https://arxiv.org/abs/2104.08164) and [Highly Parallel Autoregressive Entity Linking with Discriminative Correction]().
