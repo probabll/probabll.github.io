@@ -11,9 +11,11 @@ We are
 {% include person.html person=person %}
 {% endfor %}
 
+Past members
+
 {% assign guests = site.data.guests | where: "selected", "y" %}
 {% for person in guests %}
-{% include person.html person=person %}
+{% include friend.html person=person %}
 {% endfor %}
 
 And we often collaborate with some great people

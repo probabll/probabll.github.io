@@ -7,8 +7,6 @@ title: About
 We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) within [ILLC](http://www.illc.uva.nl) working on probabilistic models for natural language processing. 
 
 
-
-
 {% capture news %}
 * **2022**
   * [Gonçalo M. Correia](https://www.goncalomcorreia.com) passed his PhD defence! Congratulations Dr. Correia for your awesome thesis on [Learnable Sparsity and Weak Supervision for Data-Efficient, Transparent, and Compact Neural Models]().
