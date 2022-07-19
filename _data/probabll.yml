@@ -9,6 +9,15 @@
   role: PhD candidate
   url: https://roxot.github.io
 -
+  name: Nicola De Cao
+  selected: y
+  role: PhD candidate (joint with Ivan Titov)
+  url: https://nicola-decao.github.io
+-  
+  name: Pedro Ferreira
+  selected: y
+  role: PhD candidate (joint with Ivan Titov)
+-
   name: Lina Murady
   selected: n
   role: Research assistant
@@ -18,13 +27,3 @@
   selected: n
   role: Research assistant
   url: https://github.com/EelcovdW
--
-  name: Nicola De Cao
-  selected: y
-  role: PhD candidate (joint with Ivan Titov)
-  url: https://nicola-decao.github.io
--  
-  name: Pedro Ferreira
-  selected: y
-  role: PhD candidate
-  url: https://roxot.github.io

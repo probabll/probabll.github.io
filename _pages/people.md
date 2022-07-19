@@ -6,17 +6,20 @@ title: People
 
 We are
 
-{% for person in site.data.probabll %}
+{% assign persons = site.data.probabll | where: "selected", "y" %}
+{% for person in persons %}
 {% include person.html person=person %}
 {% endfor %}
 
-{% for person in site.data.guests %}
+{% assign guests = site.data.guests | where: "selected", "y" %}
+{% for person in guests %}
 {% include person.html person=person %}
 {% endfor %}
 
 And we often collaborate with some great people
 
-{% for person in site.data.friends %}
+{% assign friends = site.data.friends | where: "selected", "y" %}
+{% for person in friends %}
 {% include friend.html person=person %}
 {% endfor %}
 
