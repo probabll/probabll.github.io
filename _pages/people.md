@@ -18,6 +18,8 @@ Past members
 {% include former.html person=person %}
 {% endfor %}
 
+</br>
+
 And we often collaborate with some great people
 
 {% assign friends = site.data.friends | where: "selected", "y" %}
