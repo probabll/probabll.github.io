@@ -8,9 +8,9 @@ title: Jobs
 
 # Open PhD position
 
-I have an opening for one PhD position in machine learning for uncertainty-aware and explainable models of natural language generation. See the [call]() and instructions to apply. Please apply via that link by August 21 2022. 
+We have an opening for one PhD position in machine learning for uncertainty-aware and explainable models of natural language generation. See the [call](https://vacatures.uva.nl/UvA/job/PhD-position-in-machine-learning-for-uncertainty-aware-and-explainable-models-of-natural-language/751458902/) and follow the instructions therein to apply before August 21 2022. 
 
-*Do not email me with your application.* To be considered for any position I advertise, you must use the website linked with the call. Do email me with any specific questions about the position.
+*Do not send us your application by email.* To be considered for any position we advertise, you must use the website linked with the call. Do email us with any specific questions about the position.
 
 This position will be focused on the following topics:
 
@@ -21,3 +21,4 @@ This position will be focused on the following topics:
 
 At Probabll we rely on techniques from machine learning, deep learning and statistics, adapt and apply them to challenging language generation problems in NLP. To join us you do not need to be an expert in those fields, all we expect is that you are comfortable with one or more of those and that you are enthusiastic to advance your knowledge together with the rest of the group. 
 
+This position is in the context of a broader collaboration, also involving [Dr. Vlad Niculae](http://vene.ro) who has recently posted a [closely-related call](https://vacatures.uva.nl/UvA/job/PhD-Position-in-Machine-Learning-for-Natural-Language-Processing/750676902/).
