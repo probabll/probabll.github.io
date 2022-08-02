@@ -9,7 +9,7 @@ title: Jobs
 
 We have an opening for one PhD position in machine learning for uncertainty-aware and explainable models of natural language generation. See the [call](https://vacatures.uva.nl/UvA/job/PhD-position-in-machine-learning-for-uncertainty-aware-and-explainable-models-of-natural-language/751458902/) and follow the instructions therein to apply before August 21 2022. 
 
-*Do not send us your application by email.* To be considered for any position we advertise, you must use the website linked with the call. Do email Wilker Aziz with any specific questions about the position, add `[PhD 9921]` to the subject line.
+*Do not send us your application by email.* To be considered for any position we advertise, you must use the website linked with the call. Do email [Wilker Aziz](https://wilkeraziz.github.io) with any specific questions about the position, add `[PhD 9921]` to the subject line.
 
 This position will be focused on the following topics:
 
