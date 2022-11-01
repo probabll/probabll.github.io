@@ -3,6 +3,27 @@
   paper-type: inproceedings
   selected: y
   year: 2022
+  title: Sampling-Based Minimum Bayes Risk Decoding for Neural Machine Translation
+  authors: Bryan Eikema and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2108.04718.pdf
+  arxiv: https://arxiv.org/abs/2108.04718
+  code: https://github.com/Roxot/mbr-nmt
+  booktitle: EMNLP
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2022
+  title: Stop Measuring Calibration When Humans Disagree
+  authors: Joris Baan, Wilker Aziz, Barbara Plank, and Raquel Fernandez
+  doc-url: https://arxiv.org/pdf/2210.16133.pdf
+  arxiv: https://arxiv.org/abs/2210.16133
+  booktitle: EMNLP
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2022
   title: Sparse Communication via Mixed Distributions
   authors: António Farinhas, Wilker Aziz, Vlad Niculae, and André F. T. Martins
   booktitle: ICLR 
@@ -17,16 +38,6 @@
   title: Statistical Model Criticism of Variational Auto-Encoders
   authors: Claartje Barkhof and Wilker Aziz
   arxiv: https://arxiv.org/abs/2204.03030
--
-  layout: paper
-  paper-type: pre-print
-  selected: y
-  year: 2021
-  title: Sampling-Based Minimum Bayes Risk Decoding for Neural Machine Translation
-  authors: Bryan Eikema and Wilker Aziz
-  doc-url: https://arxiv.org/pdf/2108.04718.pdf
-  arxiv: https://arxiv.org/abs/2108.04718
-  code: https://github.com/Roxot/mbr-nmt
 -
   layout: paper
   paper-type: inproceedings
