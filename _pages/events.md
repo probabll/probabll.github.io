@@ -11,14 +11,14 @@ Here you will find events such as reading groups and seminars we organise. You m
 
 ## Reading groups
 
+**Active**
+
+* [DL and NLP](/events/DLNLP)
+
+**No longer active**
+
 * [Bayesian data analysis](/events/bda) 
 * Approximate inference methods: biweekly on Thursday (alternates with deep learning)
     * [papers](/events/inference)
     * [mailing list](https://list.uva.nl/mailman/listinfo/imrg)
-* Deep learning: biweekly on Thursday
-    * [mailing list](https://list.uva.nl/mailman/listinfo/dlm-illc)
 
-## Talks
-
-* [Unbabel: November 22, 2021](/slides/unbabel-november-22-2021-mbr/slide-deck.html)
-* [Gourmet: September 13, 2021](/slides/gourmet-september-13-2021-mbr/slide-deck.html)
