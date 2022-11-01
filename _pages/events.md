@@ -11,9 +11,8 @@ Here you will find events such as reading groups and seminars we organise. You m
 
 ## Reading groups
 
-**Active**
-
-* [DL and NLP](/events/DLNLP)
+* [DL and NLP](/events/dlnlp)
+* Bayesian reasoning and machine learning (coming soon)
 
 **No longer active**
 
