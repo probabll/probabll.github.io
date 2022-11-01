@@ -9,7 +9,8 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 {% capture news %}
 * **2022**
-  * We are [hiring](/jobs/), apply by August 21 2022!
+  * Two papers accepted at EMNLP 2022: [sampling-based MBR for NMT](https://arxiv.org/abs/2108.04718) and [calibration of text classifiers under human disagreement](https://arxiv.org/abs/2210.16133)
+  * ~~We are [hiring](/jobs/), apply by August 21 2022!~~
   * [Gonçalo M. Correia](https://www.goncalomcorreia.com) passed his PhD defence! Congratulations Dr. Correia for your awesome thesis on [Learnable Sparsity and Weak Supervision for Data-Efficient, Transparent, and Compact Neural Models]().
   * Wilker gave a talk at [Structure Prediction for NLP](http://structuredprediction.github.io/SPNLP22) ([slides](https://probabll.github.io/slides/spnlp2022.pdf), [colab demo](https://colab.research.google.com/github/probabll/demo-mbr-nmt/blob/main/German-English.ipynb)).
   * Bryan gave a [talk at the University of Copenhagen](https://ai.ku.dk/events/ai-seminar-by-bryan-eikema/) on Distribution-Aware Decoding for NMT.
