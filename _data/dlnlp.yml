@@ -1,6 +1,6 @@
 -
   selected: y
-  title: Contrastive Decoding: Open-ended Text Generation as Optimization
+  title: "Contrastive Decoding: Open-ended Text Generation as Optimization"
   doc-url: https://arxiv.org/abs/2210.15097
   when: 04/11/22 15:00, L6.51
   minutes:
@@ -14,7 +14,7 @@
 
 -
   selected: y
-  title: Model Criticism for Long-Form Text Generation
+  title: "Model Criticism for Long-Form Text Generation"
   doc-url: https://arxiv.org/abs/2210.08444 
   when: 02/11/22 16:30, L6.51
   minutes:
