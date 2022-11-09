@@ -1,5 +1,19 @@
 -
   selected: y
+  title: "Understanding Black-box Predictions via Influence Functions"
+  doc-url: http://arxiv.org/abs/1703.04730
+  when: 11/11/22 15:00, L6.51
+  minutes:
+  talk:
+  slides:
+  data:
+  code:
+  demo:
+  appendix:
+  remark:
+
+-
+  selected: y
   title: "Contrastive Decoding: Open-ended Text Generation as Optimization"
   doc-url: https://arxiv.org/abs/2210.15097
   when: 04/11/22 15:00, L6.51
