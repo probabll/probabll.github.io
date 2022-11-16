@@ -1,5 +1,19 @@
 -
   selected: y
+  title: "Adaptive Label Smoothing with Self-Knowledge in Natural Language Generation"
+  doc-url: https://arxiv.org/abs/2210.13459
+  when: 18/11/22 15:00
+  minutes:
+  talk:
+  slides:
+  data:
+  code:
+  demo:
+  appendix:
+  remark:
+
+-
+  selected: y
   title: "Understanding Black-box Predictions via Influence Functions"
   doc-url: http://arxiv.org/abs/1703.04730
   when: 11/11/22 15:00, L6.51
