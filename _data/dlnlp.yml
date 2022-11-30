@@ -1,3 +1,7 @@
+- selected: y
+  title: "Do Bayesian Neural Networks Need To Be Fully Stochastic?"
+  doc-url: https://arxiv.org/abs/2211.06291
+  when: 02/12/22 15:00, L6.51
 -
   selected: y
   title: "Adaptive Label Smoothing with Self-Knowledge in Natural Language Generation"
