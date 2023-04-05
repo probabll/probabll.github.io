@@ -1,3 +1,50 @@
+- selected: y
+  title: "“Will You Find These Shortcuts?” A Protocol for Evaluating the Faithfulness of Input Salience Methods for Text Classification"
+  doc-url: https://aclanthology.org/2022.emnlp-main.64/
+  when: 2/3 15:00, L2.07
+
+- selected: y
+  title: "Epistemic Neural Networks"
+  doc-url: https://arxiv.org/abs/2107.08924
+  when: 23/2 15:00, L2.07
+
+- selected: y
+  title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+  doc-url: https://arxiv.org/abs/2201.11903
+  when: 17/02/23 15:00, L6.51
+
+- selected: y
+  title: "Do Bayesian Neural Networks Need To Be Fully Stochastic?"
+  doc-url: https://arxiv.org/abs/2211.06291
+  when: 02/12/22 15:00, L6.51
+-
+  selected: y
+  title: "Adaptive Label Smoothing with Self-Knowledge in Natural Language Generation"
+  doc-url: https://arxiv.org/abs/2210.13459
+  when: 18/11/22 15:00, C3.2-11 (SP904)
+  minutes:
+  talk:
+  slides:
+  data:
+  code:
+  demo:
+  appendix:
+  remark:
+
+-
+  selected: y
+  title: "Understanding Black-box Predictions via Influence Functions"
+  doc-url: http://arxiv.org/abs/1703.04730
+  when: 11/11/22 15:00, L6.51
+  minutes:
+  talk:
+  slides:
+  data:
+  code:
+  demo:
+  appendix:
+  remark:
+
 -
   selected: y
   title: "Contrastive Decoding: Open-ended Text Generation as Optimization"
