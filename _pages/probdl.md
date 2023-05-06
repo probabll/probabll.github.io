@@ -12,4 +12,4 @@ We offer these classes as part of the course Deep Learning 2 at the UvA.
 
 
 * [Amortised variational inference - discrete variables](/slides/DL2/2023/vi-discrete.pdf), see also this [appendix](/slides/DL2/2023/vi-discrete-appendix.pdf)
-* Amortised variational inference - continuous variables
+* [Amortised variational inference - continuous variables](/slides/DL2/2023/vi-continuous.pdf), see also this [appendix](/slides/DL2/2023/vi-continous-appendix.pdf)
