@@ -24,4 +24,4 @@ Bachelor in Artificial Intelligence at UvA
 Guest lectures
 
 * NLP1: [Foundations of Bayesian NLP](/slides/bayesnlp1.pdf)
-
+* [LxMLS23](/slides/lxmls2023.pdf)
