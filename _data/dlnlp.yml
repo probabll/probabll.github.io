@@ -1,4 +1,14 @@
 - selected: y
+  title: "Moving to a World Beyond 'p < 0.05'"
+  doc-url: https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913
+  when: 13/09/23 14:00, L6.51 and probabll.zoom
+
+- selected: y
+  title: "R-U-SURE? Uncertainty-Aware Code Suggestions By Maximizing Utility Across Random User Intents"
+  doc-url: https://arxiv.org/abs/2303.00732
+  when: 11/05/23
+
+- selected: y
   title: "“Will You Find These Shortcuts?” A Protocol for Evaluating the Faithfulness of Input Salience Methods for Text Classification"
   doc-url: https://aclanthology.org/2022.emnlp-main.64/
   when: 2/3 15:00, L2.07
