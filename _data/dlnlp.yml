@@ -4,10 +4,30 @@
   when: 13/09/23 14:00, L6.51 and probabll.zoom
 
 - selected: y
+  title: "Neighboring Words Affect Human Interpretation of Saliency Explanations"
+  doc-url: https://arxiv.org/abs/2305.02679
+  when: 04/07/23
+
+- selected: y
+  title: "Navigating the Grey Area: Expressions of Overconfidence and Uncertainty in Language Models"
+  doc-url: https://arxiv.org/abs/2302.13439
+  when: 25/05/23
+  
+- selected: y
   title: "R-U-SURE? Uncertainty-Aware Code Suggestions By Maximizing Utility Across Random User Intents"
   doc-url: https://arxiv.org/abs/2303.00732
   when: 11/05/23
 
+- selected: y
+  title: "COLT5: Faster Long-Range Transformers with Conditional Computation"
+  doc-url: https://arxiv.org/abs/2303.09752
+  when: 30/3
+  
+- selected: y
+  title: "Calibration Meets Explanation: A Simple and Effective Approach for Model Confidence Estimates"
+  doc-url: https://aclanthology.org/2022.emnlp-main.178/
+  when: 9/3 15:00
+  
 - selected: y
   title: "“Will You Find These Shortcuts?” A Protocol for Evaluating the Faithfulness of Input Salience Methods for Text Classification"
   doc-url: https://aclanthology.org/2022.emnlp-main.64/
