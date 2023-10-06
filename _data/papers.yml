@@ -2,6 +2,17 @@
   layout: paper
   paper-type: inproceedings
   selected: y
+  year: 2023
+  title: "VISION DIFFMASK: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking"
+  authors: Angelos Nalmpantis, Apostolos Panagiotopoulos, John Gkountouras, Konstantinos Papakostas, Wilker Aziz 
+  doc-url: https://xai4cv.github.io/assets/papers2023/P13_VisionDiffMask.pdf 
+  arxiv: https://arxiv.org/abs/2304.06391 
+  code: https://github.com/AngelosNal/Vision-DiffMask 
+  booktitle: XAI4CV at CVPR
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
   year: 2022
   title: Sampling-Based Minimum Bayes Risk Decoding for Neural Machine Translation
   authors: Bryan Eikema and Wilker Aziz
