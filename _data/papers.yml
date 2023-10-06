@@ -8,6 +8,7 @@
   doc-url: https://xai4cv.github.io/assets/papers2023/P13_VisionDiffMask.pdf 
   arxiv: https://arxiv.org/abs/2304.06391 
   code: https://github.com/AngelosNal/Vision-DiffMask 
+  poster: assets/poster/vision-diffmask.pdf
   booktitle: XAI4CV at CVPR
 -
   layout: paper
