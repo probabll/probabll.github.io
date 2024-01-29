@@ -1,4 +1,9 @@
 - selected: y
+  title: "Deep de Finetti: Recovering Topic Distributions from Large Language Models"
+  doc-url: https://arxiv.org/pdf/2312.14226.pdf
+  when: 01/02/23 11.30, L6.51 and probabll.zoom
+
+- selected: y
   title: "A Statistical Analysis of Summarization Evaluation Metrics Using Resampling Methods"
   doc-url: https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00417/107833/A-Statistical-Analysis-of-Summarization-Evaluation
   when: 04/10/23 14:00, L6.51 and probabll.zoom
