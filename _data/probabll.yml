@@ -6,7 +6,7 @@
 -
   name: Bryan Eikema
   selected: y
-  role: PhD candidate
+  role: postdoc
   url: https://roxot.github.io
 -
   name: Nicola De Cao
@@ -17,6 +17,10 @@
   name: Pedro Ferreira
   selected: y
   role: PhD candidate (joint with Ivan Titov)
+-  
+  name: Joris Baan (joint with Raquel Fernandez and Barbara Plank)
+  selected: y
+  role: PhD candidate
 -  
   name: Evgenia Ilia
   selected: y
