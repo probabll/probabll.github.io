@@ -2,6 +2,48 @@
   layout: paper
   paper-type: inproceedings
   selected: y
+  year: 2024
+  title: "Predict the Next Word: <Humans exhibit uncertainty in this task and language models _____>"
+  authors: Evgenia Ilia and Wilker Aziz 
+  doc-url: 
+  arxiv: 
+  code: 
+  booktitle: EACL 
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2024
+  title: "Interpreting Predictive Probabilities: Model Confidence or Human Label Variation?"
+  authors: 
+  doc-url: 
+  arxiv: 
+  code: 
+  booktitle: EACL 
+-
+  layout: paper
+  paper-type: pre-print
+  selected: y
+  year: 2023
+  title: "Uncertainty in Natural Language Generation: From Theory to Applications" 
+  authors: Joris Baan, Nico Daheim, Evgenia Ilia, Dennis Ulmer, Haau-Sing Li, Raquel Fernández, Barbara Plank, Rico Sennrich, Chrysoula Zerva, Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2307.15703
+  arxiv: https://arxiv.org/abs/2307.15703
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2023
+  title: "What Comes Next? Evaluating Uncertainty in Neural Text Generators Against Human Production Variability"
+  authors: Mario Giulianelli, Joris Baan, Wilker Aziz, Raquel Fernández, Barbara Plank 
+  doc-url: https://aclanthology.org/2023.emnlp-main.887/ 
+  arxiv: https://arxiv.org/abs/2305.11707 
+  code: 
+  booktitle: EMNLP 
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
   year: 2023
   title: "VISION DIFFMASK: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking"
   authors: Angelos Nalmpantis, Apostolos Panagiotopoulos, John Gkountouras, Konstantinos Papakostas, Wilker Aziz 

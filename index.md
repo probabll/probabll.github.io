@@ -8,6 +8,11 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 {% capture news %}
+* **2024**
+  * Probabll is going to Malta, come talk to us about _uncertainty in NLP_. At EACL (main conference) we will be presenting about [methodology to evaluate LM's calibration against human uncertainty]() and [confidence vs. label variation](). At UncertaiNLP, Bryan will be talking about the inadequacy of the mode in neural text generators and the overlooked role of _generalisation_.
+* **2023**
+  * EMNLP 2023 paper: [evaluating uncertainty in neural text generators against human production variability](https://arxiv.org/abs/2305.11707)
+  * New pre-print on [uncertainty representation in NLP (from theory to applications)](https://arxiv.org/abs/2305.11707), a collaboration out of the [Third ELLIS NLP Workshop](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/22474) (in Dagstuhl)
 * **2022**
   * Two papers accepted at EMNLP 2022: [sampling-based MBR for NMT](https://arxiv.org/abs/2108.04718) and [calibration of text classifiers under human disagreement](https://arxiv.org/abs/2210.16133)
   * ~~We are [hiring](/jobs/), apply by August 21 2022!~~
