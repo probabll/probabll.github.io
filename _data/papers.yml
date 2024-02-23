@@ -15,11 +15,22 @@
   selected: y
   year: 2024
   title: "Interpreting Predictive Probabilities: Model Confidence or Human Label Variation?"
-  authors: 
+  authors: Joris Baan, Raquel Fernández, Barbara Plank, Wilker Aziz
   doc-url: 
   arxiv: 
   code: 
   booktitle: EACL 
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2024
+  title: The Effect of Generalisation on the Inadequacy of the Mode 
+  authors: Bryan Eikema 
+  doc-url: 
+  arxiv: 
+  code: 
+  booktitle: UncertaiNLP at EACL 
 -
   layout: paper
   paper-type: pre-print
