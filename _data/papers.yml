@@ -16,8 +16,8 @@
   year: 2024
   title: "Interpreting Predictive Probabilities: Model Confidence or Human Label Variation?"
   authors: Joris Baan, Raquel Fernández, Barbara Plank, Wilker Aziz
-  doc-url: 
-  arxiv: 
+  doc-url: https://arxiv.org/pdf/2402.16102.pdf
+  arxiv: https://arxiv.org/abs/2402.16102
   code: 
   booktitle: EACL 
 -
