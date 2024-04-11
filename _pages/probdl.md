@@ -11,6 +11,8 @@ We offer these classes as part of the course Deep Learning 2 at the UvA.
 * [Representing uncertainty in ML](/slides/DL2/2024/DL2-2024-probdl-1.pdf) 
 * [Generative models (exact)](/slides/DL2/2024/DL2-2024-probdl-2.pdf) 
 
+
+
 **2023**
 
 * [Deep probabilistic models - observed data](/slides/DL2/2023/probdl-1.pdf) 
