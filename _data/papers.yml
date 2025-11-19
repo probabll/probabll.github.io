@@ -2,11 +2,63 @@
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: 2024
+  year: 2025
+  title: "MedPath: Multi-Domain Cross-Vocabulary Hierarchical Paths for Biomedical Entity Linking"
+  authors: Nishant Mishra, Wilker Aziz and Iacer Calixto
+  booktitle: AACL-IJCNLP
+  doc-url: https://arxiv.org/abs/2511.10887
+  arxiv: https://arxiv.org/abs/2511.10887
+- 
+  layout: paper
+  paper-type: preprint
+  selected: y
+  year: 2025
+  title: "Teaching Language Models to Faithfully Express their Uncertainty"
+  authors: Bryan Eikema, Evgenia Ilia, José G. C. de Souza, Chrysoula Zerva and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2510.12587
+  arxiv: https://arxiv.org/abs/2510.12587
+- 
+  layout: paper
+  paper-type: preprint
+  selected: y
+  year: 2025
+  title: "Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations"
+  authors: Pedro Ferreira, Wilker Aziz and Ivan Titov
+  doc-url: https://arxiv.org/pdf/2504.05294
+  arxiv: https://arxiv.org/abs/2504.05294
+  code: https://github.com/PedroMLF/Reward-Hacking-in-Explanations
+  booktitle: [ICML Workshop on Actionable Interpretability](https://actionable-interpretability.github.io)
+  outstanding: y
+- 
+  layout: paper
+  paper-type: preprint
+  selected: y
+  year: 2025
+  title: "Variability Need Not Imply Error: The Case of Adequate but Semantically Distinct Responses"
+  authors: Evgenia Ilia and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2412.15683
+  arxiv: https://arxiv.org/abs/2412.15683
+- 
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2025
+  title: "Explanation Regularisation through the Lens of Attributions"
+  authors: Pedro Ferreira, Ivan Titov and Wilker Aziz
+  doc-url: https://aclanthology.org/2025.coling-main.436/
+  arxiv: https://arxiv.org/abs/2407.16693
+  booktitle: COLING
+  code: https://github.com/PedroMLF/ER_through_the_lens_of_attributions
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+i  year: 2024
   title: "Predict the Next Word: `Humans exhibit uncertainty in this task and language models _____`"
   authors: Evgenia Ilia and Wilker Aziz 
-  doc-url: https://arxiv.org/pdf/2402.17527.pdf
+  doc-url: https://aclanthology.org/2024.eacl-short.22/
   arxiv: https://arxiv.org/abs/2402.17527
+  video: https://aclanthology.org/2024.eacl-short.22.mp4
   code: 
   booktitle: EACL 
 -
@@ -16,8 +68,9 @@
   year: 2024
   title: "Interpreting Predictive Probabilities: Model Confidence or Human Label Variation?"
   authors: Joris Baan, Raquel Fernández, Barbara Plank, Wilker Aziz
-  doc-url: https://arxiv.org/pdf/2402.16102.pdf
+  doc-url: https://aclanthology.org/2024.eacl-short.24/
   arxiv: https://arxiv.org/abs/2402.16102
+  video: https://aclanthology.org/2024.eacl-short.24.mp4
   code: 
   booktitle: EACL 
 -

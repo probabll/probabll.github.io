@@ -8,8 +8,14 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 {% capture news %}
+* **2025**
+  * We are giving a talk on [LM uncertainty and decision making](slides/mercury-2025-uncertainty.pdf) at Booking.com on Nov 18
+  * Come to EMNLP and meet us at [UncertaiNLP2](https://uncertainlp.github.io)
+  * Bryan will be presenting his work on [adapting MBR decoding to open-ended generation](https://aclanthology.org/2025.emnlp-main.1616/) at EMNLP
+  * We are teaching a class on [Decoding](slides/mtm-2025-decoding.pdf) at the [MT Marathon](https://blogs.helsinki.fi/language-technology/mt-marathon-2024/) on Oct 26
+  * Pedro received an [outstanding paper award](https://actionable-interpretability.github.io) at Actionable Interpretability (ICML workshop) for his work on [reward hacking in explanations](https://arxiv.org/abs/2504.05294) 
 * **2024**
-  * Probabll is going to Malta, come talk to us about _uncertainty in NLP_. At EACL (main conference) we will be presenting about [methodology to evaluate LM's calibration against human uncertainty]() and [confidence vs. label variation](). At UncertaiNLP, Bryan will be talking about the inadequacy of the mode in neural text generators and the overlooked role of _generalisation_.
+  * Probabll is going to Malta, come talk to us about _uncertainty in NLP_. At EACL (main conference) we will be presenting about [methodology to evaluate LM's calibration against human uncertainty]() and [confidence vs. label variation](). At [UncertaiNLP](https://uncertainlp.github.io/2024/), Bryan will be talking about the inadequacy of the mode in neural text generators and the overlooked role of _generalisation_.
 * **2023**
   * EMNLP 2023 paper: [evaluating uncertainty in neural text generators against human production variability](https://arxiv.org/abs/2305.11707)
   * New pre-print on [uncertainty representation in NLP (from theory to applications)](https://arxiv.org/abs/2305.11707), a collaboration out of the [Third ELLIS NLP Workshop](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/22474) (in Dagstuhl)
