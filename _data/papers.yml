@@ -27,7 +27,7 @@
   doc-url: https://arxiv.org/pdf/2504.05294
   arxiv: https://arxiv.org/abs/2504.05294
   code: https://github.com/PedroMLF/Reward-Hacking-in-Explanations
-  booktitle: [ICML Workshop on Actionable Interpretability](https://actionable-interpretability.github.io)
+  booktitle: ICML Workshop on Actionable Interpretability
   outstanding: y
 - 
   layout: paper
