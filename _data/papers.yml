@@ -53,7 +53,7 @@
   layout: paper
   paper-type: inproceedings
   selected: y
-i  year: 2024
+  year: 2024
   title: "Predict the Next Word: `Humans exhibit uncertainty in this task and language models _____`"
   authors: Evgenia Ilia and Wilker Aziz 
   doc-url: https://aclanthology.org/2024.eacl-short.22/
