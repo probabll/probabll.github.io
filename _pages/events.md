@@ -4,20 +4,17 @@ permalink: /events/
 title: Events
 ---
 
-Here you will find events such as reading groups and seminars we organise. You might also find events organised by welcoming friends of ours.
+# Bryan Eikema's PhD defence and mini workshop (Feb 10, 2026)
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23eeeeee&amp;ctz=Europe%2FAmsterdam&amp;src=Y3Z2Y2F1YThnM21jczNzMmYyNGVpdW0yc3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23cca300&amp;color=%23cca300&amp;color=%234285F4&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1&amp;mode=AGENDA&amp;hl=en_GB" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+On Feb 10, 2026, Bryan Eikema will be defending his PhD thesis _A Sampling-Based Exploration of Neural Text Generation Models_ at the Agnietenkapel at 13:00. You're welcome to join us there. 
 
+We are also organising a mini workshop with presentations by some of the examiners. 
 
-## Reading groups
+* Location: Oudemanhuispoort, room C1.17.
+* Time: 9:00 to 12:000
+* Preliminary schedule (details TBA)
+  * Talk by [Prof Bill Byrne (Cambridge)](https://www.eng.cam.ac.uk/profiles/wjb31)
+  * Talk by [Prof Andre Martins (IST Lisbon)](https://andre-martins.github.io)
+  
 
-* [DL and NLP](/events/dlnlp)
-* Bayesian reasoning and machine learning (coming soon)
-
-**No longer active**
-
-* [Bayesian data analysis](/events/bda) 
-* Approximate inference methods: biweekly on Thursday (alternates with deep learning)
-    * [papers](/events/inference)
-    * [mailing list](https://list.uva.nl/mailman/listinfo/imrg)
 
