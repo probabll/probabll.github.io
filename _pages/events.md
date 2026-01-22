@@ -11,7 +11,7 @@ On Feb 10, 2026, Bryan Eikema will be defending his PhD thesis _A Sampling-Based
 We are also organising a mini workshop with presentations by some of the examiners. 
 
 * Location: Oudemanhuispoort, room C1.17.
-* Time: 9:00 to 12:000
+* Time: 9:00 to 12:00
 * Preliminary schedule (details TBA)
   * Talk by [Prof Bill Byrne (Cambridge)](https://www.eng.cam.ac.uk/profiles/wjb31)
   * Talk by [Prof Andre Martins (IST Lisbon)](https://andre-martins.github.io)
