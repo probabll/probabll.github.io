@@ -16,7 +16,7 @@ We are also organising a mini workshop with presentations by some of the examine
   * 09:45 Coffee and greetings
   * 10:00 Talk by [Prof Bill Byrne (Cambridge)](https://www.eng.cam.ac.uk/profiles/wjb31)
   * 10:45 Talk by [Prof Andre Martins (IST Lisbon)](https://andre-martins.github.io)
-  * 11:30 Free-formag discussion 
+  * 11:30 Free-format discussion 
   * 12:00 Goodbye / walk to Agnietenkapel
   
 
