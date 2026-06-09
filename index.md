@@ -8,6 +8,9 @@ We are a new research group led by [Wilker Aziz](http://wilkeraziz.github.io) wi
 
 
 {% capture news %}
+* **2026**
+  * Pedro will be presenting [Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](https://iclr.cc/virtual/2026/poster/10007460) at ICLR.
+  * Check our work on [faithful verbalisation of uncertainty](https://arxiv.org/abs/2510.12587)
 * **2025**
   * We are giving a talk on [LM uncertainty and decision making](slides/mercury-2025-uncertainty.pdf) at Booking.com on Nov 18
   * Come to EMNLP and meet us at [UncertaiNLP2](https://uncertainlp.github.io)

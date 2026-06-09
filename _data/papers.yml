@@ -1,12 +1,32 @@
 -
   layout: paper
+  paper-type: preprint
+  selected: y
+  year: 2026
+  title: "Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation"
+  authors: Joris Baan, Wilker Aziz, Barbara Plank, Raquel Fernández
+  doc-url: https://arxiv.org/pdf/2605.25831
+  arxiv: https://arxiv.org/abs/2605.25831
+- 
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2026
+  title: "Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations"
+  authors: Pedro Ferreira, Wilker Aziz and Ivan Titov
+  doc-url: https://openreview.net/pdf?id=nkdPLuKoL5
+  arxiv: https://arxiv.org/abs/2504.05294
+  code: https://github.com/PedroMLF/Reward-Hacking-in-Explanations
+  booktitle: ICLR
+-
+  layout: paper
   paper-type: inproceedings
   selected: y
   year: 2025
   title: "MedPath: Multi-Domain Cross-Vocabulary Hierarchical Paths for Biomedical Entity Linking"
   authors: Nishant Mishra, Wilker Aziz and Iacer Calixto
   booktitle: AACL-IJCNLP
-  doc-url: https://arxiv.org/abs/2511.10887
+  doc-url: https://aclanthology.org/2025.ijcnlp-long.158/
   arxiv: https://arxiv.org/abs/2511.10887
 - 
   layout: paper
