@@ -9,6 +9,10 @@ We a research group led by [Wilker Aziz](http://wilkeraziz.github.io) within [IL
 
 {% capture news %}
 * **2026**
+  * We are hiring; apply before 6 Dec 2026 (see [jobs](/jobs/))
+  * At INLG
+    * Evgenia is giving a talk about [A Tale of Two Error Categories: Exploring Concealed Trade-Offs in the Errors of Automated Judges in Evaluation of Uncertainty Quantifiers](https://arxiv.org/abs/2610.09693) 
+    * Joris is presenting a poster about [Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation](https://arxiv.org/abs/2605.25831) at INLG
   * Pedro will be presenting [Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](https://iclr.cc/virtual/2026/poster/10007460) at ICLR.
   * Check our work on [faithful verbalisation of uncertainty](https://arxiv.org/abs/2510.12587)
 * **2025**
