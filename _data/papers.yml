@@ -1,12 +1,34 @@
 -
   layout: paper
-  paper-type: preprint
+  paper-type: inproceedings
+  selected: y
+  year: 2026
+  title: "Does Out-of-Sight Equal Out-of-Mind in CoT Monitorability?"
+  authors: Pedro Ferreira, Wilker Aziz and Ivan Titov
+  doc-url: https://aclanthology.org/2026.blackboxnlp-1.30/ 
+  arxiv: https://arxiv.org/abs/2608.04928 
+  booktitle: BlackboxNLP
+  best: y
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2026
+  title: "A Tale of Two Error Categories: Exploring Concealed Trade-Offs in the Errors of Automated Judges in Evaluation of Uncertainty Quantifiers"
+  authors: Evgenia Ilia and Wilker Aziz
+  doc-url: https://arxiv.org/pdf/2610.09693
+  arxiv: https://arxiv.org/abs/2610.09693
+  booktitle: INLG
+-
+  layout: paper
+  paper-type: inproceedings
   selected: y
   year: 2026
   title: "Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation"
   authors: Joris Baan, Wilker Aziz, Barbara Plank, Raquel Fernández
   doc-url: https://arxiv.org/pdf/2605.25831
   arxiv: https://arxiv.org/abs/2605.25831
+  booktitle: INLG
 - 
   layout: paper
   paper-type: inproceedings
