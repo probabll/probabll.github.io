@@ -10,6 +10,7 @@ We a research group led by [Wilker Aziz](http://wilkeraziz.github.io) within [IL
 {% capture news %}
 * **2026**
   * We are hiring; apply before 6 Dec 2026 (see [jobs](/jobs/))
+  * Pedro got a Best Paper Award at BlackboxNLP for his work [Does Out-of-Sight Equal Out-of-Mind in CoT Monitorability?](https://aclanthology.org/2026.blackboxnlp-1.30/) 
   * At INLG
     * Evgenia is giving a talk about [A Tale of Two Error Categories: Exploring Concealed Trade-Offs in the Errors of Automated Judges in Evaluation of Uncertainty Quantifiers](https://arxiv.org/abs/2610.09693) 
     * Joris is presenting a poster about [Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation](https://arxiv.org/abs/2605.25831) at INLG
